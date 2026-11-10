@@ -20,15 +20,27 @@ python -m spacy download en_core_web_sm                # hoặc en_core_web_trf 
 docker compose up -d                                   # Neo4j 5 + GDS tại http://localhost:7474
 ```
 
+## Kết quả hiện có (thu thập ngày 07/11/2026)
+- 3.141 trang tiểu sử → **9.303 nút, 27.763 cạnh, 12 loại quan hệ có dữ liệu**
+- `data/output/nodes.csv`, `data/output/edges.csv` – mạng hoàn chỉnh (mỗi cạnh có câu bằng chứng)
+- `reports/stats.json`, `stats.md`, `*.png` – thống kê và hình
+- `reports/preliminary_precision.md` – chấm sơ bộ độ chính xác (≈ 98,8% trên 336 cạnh mẫu)
+- `data/output/eval_sample.csv` – 511 cạnh mẫu để chấm chính thức
+
 ## Chạy pipeline
 ```bash
-python scripts/01_crawl.py --target 2500       # thu thập (~15–30 phút)
-python scripts/02_extract.py                   # Infobox + NLP  (thêm --nli facebook/bart-large-mnli để kiểm chứng)
+python scripts/01_crawl.py --target 3200       # thu thập (~15–30 phút)
+#   Nếu máy không gọi được API Wikipedia: mở https://en.wikipedia.org/wiki/Special:BlankPage,
+#   dán scripts/browser_crawler.js vào Console, đợi S.done === true, gọi `await exportDump()`,
+#   rồi: python scripts/00_import_browser_dump.py scinet_dump.json.gz
+python scripts/02_extract.py                   # Infobox + NLP (thêm --offline nếu dùng dữ liệu từ trình duyệt;
+                                               #  --nli facebook/bart-large-mnli để kiểm chứng; --legacy = bộ trích xuất v1)
 python scripts/03_build_graph.py               # hợp nhất -> data/output/nodes.csv, edges.csv
 python scripts/04_load_neo4j.py                # nạp vào Neo4j
 python scripts/05_network_stats.py             # thống kê -> reports/stats.json, *.png
 python scripts/06_eval_sample.py sample        # lấy mẫu để chấm tay độ chính xác
 python scripts/06_eval_sample.py score         # tính precision + khoảng tin cậy 95%
+python scripts/07_figures.py                   # vẽ hình cho báo cáo
 python tests/test_pipeline.py                  # kiểm thử offline
 ```
 Truy vấn mẫu và thuật toán GDS (PageRank, Betweenness, Louvain): `queries.cypher`.
