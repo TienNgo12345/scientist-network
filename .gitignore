@@ -1,0 +1,5 @@
+data/raw/
+data/interim/
+neo4j_data/
+.venv/
+__pycache__/

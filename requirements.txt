@@ -1,0 +1,12 @@
+requests>=2.31
+mwparserfromhell>=0.6.6
+spacy>=3.7
+pandas>=2.0
+networkx>=3.2
+jellyfish>=1.0
+neo4j>=5.14
+matplotlib>=3.8
+tqdm>=4.66
+# tuỳ chọn: kiểm chứng NLI bằng Transformer
+# transformers>=4.40
+# torch>=2.2
