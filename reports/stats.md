@@ -1,0 +1,22 @@
+| Chỉ số | Giá trị |
+| --- | --- |
+| nodes | 9303 |
+| edges | 27763 |
+| relation_types | 12 |
+| avg_degree | 5.77 |
+| density | 0.00062 |
+| components | 8 |
+| lcc_size | 9284 |
+| lcc_ratio | 0.998 |
+| ss_nodes | 5017 |
+| ss_edges | 5467 |
+| ss_avg_clustering | 0.0225 |
+| ss_reciprocity | 0.0139 |
+| ss_degree_assortativity | -0.1076 |
+| ss_lcc_size | 3830 |
+| ss_lcc_avg_shortest_path | 10.073 |
+| ss_lcc_diameter_approx | 34 |
+| louvain_communities | 350 |
+| louvain_modularity | 0.9131 |
+| advisor_dag | True |
+| longest_academic_lineage | 13 |

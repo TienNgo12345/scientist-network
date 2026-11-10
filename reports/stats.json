@@ -1,0 +1,268 @@
+{
+  "nodes": 9303,
+  "edges": 27763,
+  "nodes_by_label": {
+    "Scientist": 5636,
+    "Institution": 1688,
+    "Award": 1239,
+    "Field": 740
+  },
+  "edges_by_type": {
+    "RECEIVED_AWARD": 7452,
+    "WORKED_AT": 5996,
+    "STUDIED_AT": 4814,
+    "WORKS_IN_FIELD": 3825,
+    "DOCTORAL_ADVISOR_OF": 3681,
+    "ACADEMIC_ADVISOR_OF": 1054,
+    "INFLUENCED": 482,
+    "COLLABORATED_WITH": 348,
+    "ADVISOR_TO": 49,
+    "CRITICIZED": 33,
+    "BUILT_UPON": 24,
+    "REFUTED": 5
+  },
+  "edges_by_method": {
+    "infobox": 27304,
+    "rule+role": 459
+  },
+  "relation_types": 12,
+  "avg_degree": 5.77,
+  "density": 0.00062,
+  "components": 8,
+  "lcc_size": 9284,
+  "lcc_ratio": 0.998,
+  "ss_nodes": 5017,
+  "ss_edges": 5467,
+  "ss_avg_clustering": 0.0225,
+  "ss_reciprocity": 0.0139,
+  "ss_degree_assortativity": -0.1076,
+  "ss_lcc_size": 3830,
+  "ss_lcc_avg_shortest_path": 10.073,
+  "ss_lcc_diameter_approx": 34,
+  "top_pagerank": [
+    [
+      "Noam Chomsky",
+      0.00276
+    ],
+    [
+      "Friedrich Hayek",
+      0.00274
+    ],
+    [
+      "Milton Friedman",
+      0.00137
+    ],
+    [
+      "Debendra Mohan Bose",
+      0.00129
+    ],
+    [
+      "John Maynard Keynes",
+      0.00125
+    ],
+    [
+      "Thomas Piketty",
+      0.00124
+    ],
+    [
+      "Bibha Chowdhuri",
+      0.00113
+    ],
+    [
+      "Oliver E. Williamson",
+      0.00105
+    ],
+    [
+      "Vilfredo Pareto",
+      0.00103
+    ],
+    [
+      "Maurice Kugler",
+      0.001
+    ]
+  ],
+  "top_betweenness": [
+    [
+      "Linus Pauling",
+      0.12304
+    ],
+    [
+      "Niels Bohr",
+      0.11194
+    ],
+    [
+      "Friedrich Hayek",
+      0.08879
+    ],
+    [
+      "Ludwig Boltzmann",
+      0.07504
+    ],
+    [
+      "John Maynard Keynes",
+      0.06232
+    ],
+    [
+      "Ernst Mach",
+      0.06082
+    ],
+    [
+      "Max Born",
+      0.05627
+    ],
+    [
+      "E. T. Whittaker",
+      0.0551
+    ],
+    [
+      "Arthur Eddington",
+      0.04998
+    ],
+    [
+      "Alfred North Whitehead",
+      0.04991
+    ]
+  ],
+  "top_in_degree": [
+    [
+      "Friedrich Hayek",
+      35
+    ],
+    [
+      "Noam Chomsky",
+      31
+    ],
+    [
+      "Milton Friedman",
+      16
+    ],
+    [
+      "John Maynard Keynes",
+      15
+    ],
+    [
+      "Thomas Piketty",
+      14
+    ],
+    [
+      "Vilfredo Pareto",
+      12
+    ],
+    [
+      "Joseph Schumpeter",
+      11
+    ],
+    [
+      "Paul Samuelson",
+      10
+    ],
+    [
+      "Robin Hahnel",
+      10
+    ],
+    [
+      "Niels Bohr",
+      9
+    ]
+  ],
+  "top_out_degree": [
+    [
+      "Noam Chomsky",
+      53
+    ],
+    [
+      "Robert S. Langer",
+      35
+    ],
+    [
+      "Arnold Sommerfeld",
+      34
+    ],
+    [
+      "David Hilbert",
+      34
+    ],
+    [
+      "John Maynard Keynes",
+      28
+    ],
+    [
+      "John Rawls",
+      28
+    ],
+    [
+      "Abdus Salam",
+      27
+    ],
+    [
+      "Max Born",
+      26
+    ],
+    [
+      "Robert Solow",
+      25
+    ],
+    [
+      "Kenneth Arrow",
+      23
+    ]
+  ],
+  "louvain_communities": 350,
+  "louvain_modularity": 0.9131,
+  "largest_communities": [
+    361,
+    198,
+    190,
+    159,
+    148,
+    143,
+    130,
+    124,
+    123,
+    120
+  ],
+  "advisor_dag": true,
+  "longest_academic_lineage": 13,
+  "top_doctoral_advisors": [
+    [
+      "David Hilbert",
+      31
+    ],
+    [
+      "Noam Chomsky",
+      27
+    ],
+    [
+      "Robert Solow",
+      23
+    ],
+    [
+      "John Archibald Wheeler",
+      20
+    ],
+    [
+      "Felix Klein",
+      20
+    ],
+    [
+      "Arnold Sommerfeld",
+      19
+    ],
+    [
+      "Abdus Salam",
+      19
+    ],
+    [
+      "John Rawls",
+      19
+    ],
+    [
+      "Julian Schwinger",
+      17
+    ],
+    [
+      "Manuel Blum",
+      17
+    ]
+  ]
+}
