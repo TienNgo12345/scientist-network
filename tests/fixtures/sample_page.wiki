@@ -1,0 +1,21 @@
+{{Short description|Physicist}}
+{{Infobox scientist
+| name = Alice Example
+| alma_mater = [[University of Cambridge]]<ref>{{cite web|url=x}}</ref>
+| workplaces = {{plainlist|
+* [[Max Planck Society|Max Planck Institute]]
+* [[CERN]]
+}}
+| doctoral_advisor = [[Bob Mentor]]
+| doctoral_students = [[Carol Student]]<br>[[Dan Student]]
+| influences = [[Erwin Influencer]]
+| fields = Theoretical physics, [[Quantum mechanics]]
+| awards = [[Nobel Prize in Physics]] (1999)
+}}
+'''Alice Example''' (born 1950) is a physicist.
+
+== Scientific career ==
+In 1975, Example built on the work of [[Erwin Influencer]] to develop a new model of scattering. She collaborated with [[Frank Partner]] on detector physics at [[CERN]]. From 1990 she served as a scientific advisor to the [[International Atomic Energy Agency]].
+
+== Controversies ==
+Example strongly criticized [[Gina Rival]]'s interpretation of the data.<ref>Ref</ref> Her results were later refuted by [[Henry Skeptic]]. A priority dispute arose between Example and [[Ivan Claimant]] over the discovery. She did not reject [[Jack Neutral]]'s proposal.
