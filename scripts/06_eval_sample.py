@@ -35,8 +35,11 @@ def main():
     a = ap.parse_args()
     if a.cmd == "sample":
         e = pd.read_csv(OUT / "edges.csv")
-        s = (e.groupby("type", group_keys=False)
-               .apply(lambda g: g.sample(min(len(g), a.per_type), random_state=42)))
+        # không dùng groupby().apply vì pandas >= 2.2 bỏ mất cột 'type'
+        s = pd.concat([g.sample(min(len(g), a.per_type), random_state=42)
+                       for _, g in e.groupby("type")])
+        cols = ["type"] + [c for c in s.columns if c != "type"]
+        s = s[cols]
         s["correct"] = ""
         s.to_csv(PATH, index=False)
         print(f"Đã lấy {len(s)} cạnh -> {PATH}. Hãy điền cột 'correct' (1 đúng / 0 sai).")
