@@ -11,8 +11,9 @@ for p in (RAW, INTERIM, OUT, REPORTS):
     p.mkdir(parents=True, exist_ok=True)
 
 WIKI_API = "https://en.wikipedia.org/w/api.php"
-USER_AGENT = "SNA-ScientistNetwork/1.0 (student course project; contact via GitHub repo)"
-REQUEST_DELAY = 0.2          # giây giữa 2 request (lịch sự với API)
+USER_AGENT = ("SNA-ScientistNetwork/1.1 (https://github.com/TienNgo12345/scientist-network; "
+              "student course project INT3235E) python-requests")
+REQUEST_DELAY = 0.5          # giây giữa 2 request (lịch sự với API)
 BATCH = 50                   # API cho phép tối đa 50 title / request
 
 # Mục tiêu kích thước mạng

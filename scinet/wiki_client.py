@@ -15,22 +15,40 @@ class WikiClient:
         self._last = 0.0
 
     def _get(self, params: dict) -> dict:
-        params = {**params, "format": "json", "formatversion": 2}
-        for attempt in range(5):
+        """Gọi API; dùng POST (tránh URL quá dài), thử lại tối đa 6 lần, báo rõ lỗi cuối."""
+        params = {**params, "format": "json", "formatversion": 2, "maxlag": 5}
+        last_err = ""
+        for attempt in range(6):
             wait = REQUEST_DELAY - (time.time() - self._last)
             if wait > 0:
                 time.sleep(wait)
             self._last = time.time()
             try:
-                r = self.s.get(WIKI_API, params=params, timeout=30)
-                if r.status_code == 429:
-                    time.sleep(5 * (attempt + 1))
+                r = self.s.post(WIKI_API, data=params, timeout=60)
+                if r.status_code in (429, 503):
+                    last_err = f"HTTP {r.status_code} (bị giới hạn tốc độ)"
+                    time.sleep(int(r.headers.get("Retry-After", 5 * (attempt + 1))))
                     continue
-                r.raise_for_status()
-                return r.json()
-            except requests.RequestException:
-                time.sleep(2 * (attempt + 1))
-        raise RuntimeError(f"API failed: {params}")
+                if r.status_code != 200:
+                    last_err = f"HTTP {r.status_code}: {r.text[:200]}"
+                    time.sleep(3 * (attempt + 1))
+                    continue
+                data = r.json()
+                if "error" in data:
+                    code = data["error"].get("code")
+                    last_err = f"API error {code}: {data['error'].get('info')}"
+                    if code == "maxlag":
+                        time.sleep(5)
+                        continue
+                    break
+                return data
+            except (requests.RequestException, ValueError) as e:
+                last_err = f"{type(e).__name__}: {e}"
+                time.sleep(3 * (attempt + 1))
+        raise RuntimeError(
+            f"Không gọi được Wikipedia API sau nhiều lần thử. Lỗi cuối: {last_err}\n"
+            "Nếu là HTTP 403 hoặc lỗi kết nối: mạng của bạn đang chặn API. Hãy dùng cách thu thập qua "
+            "trình duyệt (scripts/browser_crawler.js, xem README) rồi chạy scripts/00_import_browser_dump.py.")
 
     # ---- Category ---------------------------------------------------------
     def category_members(self, category: str, limit: int = 2000) -> List[str]:
