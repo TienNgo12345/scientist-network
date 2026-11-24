@@ -24,9 +24,19 @@ cp .env.example .env              # chọn nhà cung cấp LLM; LLM_PROVIDER=non
 # (tuỳ chọn) cài Ollama rồi: ollama pull qwen2.5:7b
 streamlit run app/streamlit_app.py
 ```
+**Đánh giá với mô hình ngôn ngữ một lần là xong:** Windows nháy đúp `run_llm_eval.bat`,
+macOS/Linux `bash run_llm_eval.sh` (cài thư viện, tải Qwen2.5-7B, chạy 144 câu → `reports/qa_eval.json`).
 Ba trang: **Hỏi đáp GraphRAG** (chuỗi suy luận + đồ thị bằng chứng), **Chân dung nhà khoa học**
 (số đo mạng, mạng lân cận, phả hệ, cộng đồng, nhà khoa học tương tự) và **Tổng quan mạng**.
 Kiểm thử: `python tests/test_app.py` → `OK`.
+
+## Dữ liệu
+Dữ liệu gốc được nén để vừa giới hạn của GitHub; giải nén trước khi chạy lại pipeline:
+```bash
+python scripts/00_unpack_data.py   # data/raw/scientists.jsonl (3.141 trang wikitext),
+                                   # data/enrich/sections.jsonl (kho văn bản 29.854 câu), mentions.jsonl
+```
+`data/interim/` và `data/enrich/docs.spacy` sinh lại bằng `02_extract.py` và `08_enrich_corpus.py`.
 
 ## Pipeline cuối kỳ (sau các bước 0–7 của giữa kỳ)
 ```bash
@@ -38,6 +48,7 @@ python scripts/12_quality_and_merge.py    # đánh giá chất lượng + đồ 
 python scripts/13_sna_algorithms.py       # thế giới nhỏ, PageRank, Louvain, k-core -> reports/sna.json
 python scripts/14_community_summaries.py  # tóm tắt cộng đồng cho GraphRAG (--llm để LLM viết)
 python scripts/15_eval_qa.py --eval rules,llm,closed_book   # đánh giá hỏi đáp nhiều bước
+python scripts/16_agreement.py            # Cohen's kappa giữa 2 người chấm (xem annotation/HUONG_DAN_CHAM.md)
 ```
 Các thuật toán tương ứng trên Neo4j GDS nằm ở cuối `queries.cypher`.
 

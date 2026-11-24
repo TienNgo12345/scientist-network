@@ -1,4 +1,5 @@
-data/raw/
+data/raw/*
+!data/raw/*.gz
 data/interim/
 neo4j_data/
 .venv/
