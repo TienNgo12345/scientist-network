@@ -1,12 +1,23 @@
+# Python >= 3.10
 requests>=2.31
 mwparserfromhell>=0.6.6
 spacy>=3.7
 pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
 networkx>=3.2
 jellyfish>=1.0
 neo4j>=5.14
 matplotlib>=3.8
 tqdm>=4.66
+# ứng dụng cuối kỳ (app/)
+streamlit>=1.50
+pyvis>=0.3.2
+plotly>=5.20
+rapidfuzz>=3.6
+rank_bm25>=0.2.2
+openai>=1.30
 # tuỳ chọn: kiểm chứng NLI bằng Transformer
 # transformers>=4.40
 # torch>=2.2

@@ -3,3 +3,8 @@ data/interim/
 neo4j_data/
 .venv/
 __pycache__/
+.env
+# kho văn bản làm giàu (sinh lại bằng scripts/08-09, cần data/raw)
+data/enrich/docs.spacy
+data/enrich/sections.jsonl
+data/enrich/mentions.jsonl

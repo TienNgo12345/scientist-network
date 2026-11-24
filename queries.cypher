@@ -32,3 +32,39 @@ CALL gds.louvain.stats('sci') YIELD communityCount, modularity;
 // 7. Cộng đồng thông qua viện nghiên cứu: các nhà khoa học cùng làm việc tại một viện
 MATCH (a:Scientist)-[:WORKED_AT]->(i:Institution)<-[:WORKED_AT]-(b:Scientist)
 WHERE a.name < b.name RETURN i.name, count(*) AS pairs ORDER BY pairs DESC LIMIT 10;
+
+// =====================================================================
+// CUỐI KỲ – thuật toán phân tích mạng trên Neo4j Graph Data Science
+// (cùng thuật toán với scripts/13_sna_algorithms.py)
+// =====================================================================
+// 0. Chiếu đồ thị vô hướng vào bộ nhớ GDS
+CALL gds.graph.project('kg', ['Scientist','Institution','Award','Field'], {ALL: {type: '*', orientation: 'UNDIRECTED'}});
+
+// 1. Thế giới nhỏ: khoảng cách trung bình ước lượng từ 200 nguồn ngẫu nhiên (BFS)
+MATCH (s) WITH s, rand() AS r ORDER BY r LIMIT 200
+CALL gds.allShortestPaths.delta.stream('kg', {sourceNode: s})
+YIELD targetNode, totalCost
+RETURN avg(totalCost) AS avg_shortest_path, max(totalCost) AS observed_diameter,
+       100.0 * sum(CASE WHEN totalCost <= 6 THEN 1 ELSE 0 END) / count(*) AS pct_within_6_hops;
+
+// 2. Xếp hạng: PageRank (đồ thị có hướng) và betweenness
+CALL gds.graph.project('kg_dir', '*', '*');
+CALL gds.pageRank.stream('kg_dir', {dampingFactor: 0.85})
+YIELD nodeId, score WITH gds.util.asNode(nodeId) AS n, score
+WHERE n:Scientist RETURN n.name, round(score, 4) AS pagerank ORDER BY pagerank DESC LIMIT 20;
+
+CALL gds.betweenness.stream('kg', {samplingSize: 2000, samplingSeed: 42})
+YIELD nodeId, score WITH gds.util.asNode(nodeId) AS n, score
+WHERE n:Scientist RETURN n.name, round(score) AS betweenness ORDER BY betweenness DESC LIMIT 20;
+
+// 3. Cộng đồng (Louvain) + hạt nhân (k-core)
+CALL gds.louvain.write('kg', {writeProperty: 'community', randomSeed: 42})
+YIELD communityCount, modularity RETURN communityCount, modularity;
+
+CALL gds.kcore.write('kg', {writeProperty: 'core'}) YIELD degeneracy RETURN degeneracy;
+MATCH (n) WITH max(n.core) AS k MATCH (n) WHERE n.core = k
+RETURN labels(n)[0] AS loai, count(*) AS so_nut_trong_hat_nhan;
+
+// Hạt nhân của từng cộng đồng: nhà khoa học có core cao nhất trong cộng đồng
+MATCH (s:Scientist) WITH s.community AS c, s ORDER BY s.core DESC
+RETURN c, collect(s.name)[0..5] AS hat_nhan, count(*) AS so_nha_khoa_hoc ORDER BY so_nha_khoa_hoc DESC LIMIT 10;
