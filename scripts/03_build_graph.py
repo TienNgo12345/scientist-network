@@ -56,8 +56,15 @@ def cluster_names(names, threshold=0.96):
 
 
 def main():
-    crawled = {r["title"] for r in read_jsonl(RAW / "scientists.jsonl")}
+    crawled = set()
     link_types = json.loads((INTERIM / "link_types.json").read_text(encoding="utf-8"))
+    for r in read_jsonl(RAW / "scientists.jsonl"):
+        # trang bài viết chính của Category (vd "Fields Medal", "Kyoto Prize in Basic Sciences")
+        # lọt vào tập seed -> là giải thưởng, không phải tiểu sử
+        if re.search(r"\{\{\s*Infobox[ _]award", r["wikitext"][:3000], re.I):
+            link_types[r["title"]] = "Award"
+            continue
+        crawled.add(r["title"])
     ap = INTERIM / "aliases.json"
     aliases = json.loads(ap.read_text(encoding="utf-8")) if ap.exists() else {}
     ib = list(read_jsonl(INTERIM / "infobox_edges.jsonl"))
