@@ -1,0 +1,57 @@
+{
+  "split": {
+    "train_pages": 1996,
+    "test_pages": 499
+  },
+  "A_spacy_ner_only": {
+    "gold_mentions": 3172,
+    "detection_recall_relaxed": 0.7387,
+    "detection_recall_strict": 0.43,
+    "end_to_end_recall": 0.6327,
+    "linking_precision_on_gold_region": 0.8542,
+    "f1_end_to_end": 0.727,
+    "mentions_outside_wikilinks": 7305,
+    "recall_by_label": {
+      "Field": 0.0145,
+      "Institution": 0.8248,
+      "Award": 0.5735,
+      "Scientist": 0.8641
+    }
+  },
+  "B_gazetteer_only": {
+    "gold_mentions": 3172,
+    "detection_recall_relaxed": 0.8411,
+    "detection_recall_strict": 0.7787,
+    "end_to_end_recall": 0.796,
+    "linking_precision_on_gold_region": 0.9379,
+    "f1_end_to_end": 0.8611,
+    "mentions_outside_wikilinks": 5731,
+    "recall_by_label": {
+      "Field": 0.8728,
+      "Institution": 0.7759,
+      "Award": 0.6772,
+      "Scientist": 0.8073
+    }
+  },
+  "C_hybrid": {
+    "gold_mentions": 3172,
+    "detection_recall_relaxed": 0.9584,
+    "detection_recall_strict": 0.6778,
+    "end_to_end_recall": 0.884,
+    "linking_precision_on_gold_region": 0.9186,
+    "f1_end_to_end": 0.901,
+    "mentions_outside_wikilinks": 11676,
+    "recall_by_label": {
+      "Field": 0.8772,
+      "Institution": 0.9154,
+      "Award": 0.7406,
+      "Scientist": 0.9026
+    }
+  },
+  "inference": {
+    "wikilink_mentions": 15481,
+    "new_linked_mentions": 36028,
+    "new_unlinked_mentions": 21206,
+    "gain_linked_pct": 232.7
+  }
+}

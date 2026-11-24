@@ -1,0 +1,227 @@
+{
+  "input": {
+    "nodes": 9306,
+    "edges": 27840
+  },
+  "junk_nodes": {
+    "count": 33,
+    "examples": [
+      "-Key ChemistryUnnatural Product Synthesis",
+      "1st class",
+      "2008China",
+      "2nd Class",
+      "<br/ >",
+      "Bengaluru",
+      "Brescia",
+      "Cambridge",
+      "Canada",
+      "Chagai-I",
+      "China",
+      "Copenhagen",
+      "Doctorate",
+      "France",
+      "Heidelberg",
+      "Howardite",
+      "ICTP",
+      "Italy",
+      "Knight",
+      "Letters",
+      "Lung",
+      "Member",
+      "Milestone",
+      "Montreal",
+      "Poetry",
+      "SIGPLAN",
+      "Science",
+      "Sciences",
+      "Sven",
+      "Teaching",
+      "Toulouse",
+      "Trieste",
+      "– Commander"
+    ],
+    "edges_removed": 39,
+    "interwiki_renamed": 5
+  },
+  "enrichment": {
+    "candidates": 96,
+    "rejected_by_audit": 7,
+    "added": 85,
+    "by_type": {
+      "COLLABORATED_WITH": 37,
+      "CRITICIZED": 5,
+      "ADVISOR_TO": 11,
+      "BUILT_UPON": 4,
+      "REFUTED": 1,
+      "PRIORITY_DISPUTE": 1,
+      "STUDIED_AT": 5,
+      "RECEIVED_AWARD": 21
+    },
+    "by_method": {
+      "rule+role+ner": 55,
+      "ds-logreg": 30
+    }
+  },
+  "constraints": {
+    "type_violations_removed": {
+      "RECEIVED_AWARD": 4
+    },
+    "self_loops_removed": 0,
+    "duplicates_removed": 3
+  },
+  "advisor_cycles": {
+    "count": 0,
+    "examples": []
+  },
+  "temporal": {
+    "advisor_edges_with_both_birth_years": 2019,
+    "advisor_not_older": 14,
+    "consistency_rate": 0.9931,
+    "examples": [
+      [
+        "Julian Schwinger",
+        1918,
+        "Bernard Lippmann",
+        1914,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Michael Levitt (biophysicist)",
+        1947,
+        "Cyrus Chothia",
+        1942,
+        "ACADEMIC_ADVISOR_OF"
+      ],
+      [
+        "Walther Nernst",
+        1864,
+        "Margaret Eliza Maltby",
+        1860,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Frederick Sanger",
+        1918,
+        "Rodney Porter",
+        1917,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Thomas Hunt Morgan",
+        1866,
+        "Nettie Stevens",
+        1861,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Daron Acemoglu",
+        1967,
+        "Mark Aguiar",
+        1966,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Kenneth Arrow",
+        1921,
+        "John Harsanyi",
+        1920,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Lars Peter Hansen",
+        1952,
+        "Ravi Jagannathan",
+        1949,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Leonid Hurwicz",
+        1917,
+        "Clifford Hildreth",
+        1917,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Edward Feigenbaum",
+        1936,
+        "Niklaus Wirth",
+        1934,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "John Theophilus Desaguliers",
+        1683,
+        "Stephen Gray (scientist)",
+        1666,
+        "ACADEMIC_ADVISOR_OF"
+      ],
+      [
+        "Aage Bohr",
+        1922,
+        "Francis E. Low",
+        1921,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Sendhil Mullainathan",
+        1973,
+        "Benjamin Jones (economist)",
+        1972,
+        "DOCTORAL_ADVISOR_OF"
+      ],
+      [
+        "Maffeo Pantaleoni",
+        1857,
+        "Vilfredo Pareto",
+        1848,
+        "ACADEMIC_ADVISOR_OF"
+      ]
+    ],
+    "scientists_with_birth_year": 2989
+  },
+  "provenance": {
+    "edges_with_evidence_or_field": 27879,
+    "share": 1.0
+  },
+  "precision": {
+    "enrichment_rule+role+ner": [
+      0.9322,
+      0.8382,
+      0.9733,
+      59
+    ],
+    "enrichment_ds-logreg": [
+      0.9189,
+      0.787,
+      0.972,
+      37
+    ],
+    "note": "định dạng: (precision, CI95 thấp, CI95 cao, n); nhãn hiện tại là chấm sơ bộ"
+  },
+  "output": {
+    "nodes": 9271,
+    "edges": 27879,
+    "relation_types_with_data": 13,
+    "edges_by_type": {
+      "RECEIVED_AWARD": 7508,
+      "WORKED_AT": 5996,
+      "STUDIED_AT": 4819,
+      "WORKS_IN_FIELD": 3824,
+      "DOCTORAL_ADVISOR_OF": 3681,
+      "ACADEMIC_ADVISOR_OF": 1054,
+      "INFLUENCED": 482,
+      "COLLABORATED_WITH": 382,
+      "ADVISOR_TO": 60,
+      "CRITICIZED": 38,
+      "BUILT_UPON": 28,
+      "REFUTED": 6,
+      "PRIORITY_DISPUTE": 1
+    },
+    "nodes_by_label": {
+      "Award": 1209,
+      "Institution": 1687,
+      "Scientist": 5636,
+      "Field": 739
+    }
+  }
+}

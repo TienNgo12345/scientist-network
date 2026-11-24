@@ -1,0 +1,302 @@
+entity,type,mentions
+Barack Obama,PERSON,19
+George Allen &,PERSON,15
+A. H. Zewail,PERSON,11
+Adolf Hitler,PERSON,9
+Ronald Reagan,PERSON,9
+Robert Döpel,PERSON,7
+Maynard Smith,PERSON,7
+Joseph Stalin,PERSON,7
+"George Allen & Unwin
+ ",PERSON,7
+De Broglie,PERSON,6
+Harry S. Truman,PERSON,6
+Bill Clinton,PERSON,6
+Franklin D. Roosevelt,PERSON,5
+Goeppert Mayer,PERSON,5
+Eugene Higgins,PERSON,5
+Ashutosh Mukherjee,PERSON,5
+Joe Biden,PERSON,5
+Jimmy Carter,PERSON,5
+Brian Kernighan,PERSON,5
+George Lazarides,PERSON,5
+Kegan Paul,PERSON,5
+John F. Kennedy,PERSON,4
+Madhava Rao,PERSON,4
+Bill Gates,PERSON,4
+Karl Wirtz,PERSON,4
+Wilhelm Groth,PERSON,4
+Donald Trump,PERSON,4
+Van Vleck,PERSON,4
+Lyndon B. Johnson,PERSON,4
+Chris Blattman,PERSON,4
+Peter Boettke,PERSON,4
+J. D. Bekenstein,PERSON,4
+A. Bonpland,PERSON,4
+Donald Michie,PERSON,4
+Monte Carlo,PERSON,4
+Subir Sachdev,PERSON,4
+Leon Balents,PERSON,4
+Arshad M. Mirza,PERSON,4
+Zahoor Ahmad,PERSON,4
+George Allen & Unwin,PERSON,4
+PB Levine,PERSON,4
+George W. Bush,PERSON,4
+Harry Gunnison Brown,PERSON,4
+Torsten Persson,PERSON,4
+Peter Meyer,PERSON,3
+Fritz Houtermans,PERSON,3
+Robert Marshak,PERSON,3
+Wolfgang Gentner,PERSON,3
+Erich Fischer,PERSON,3
+Dwight D. Eisenhower,PERSON,3
+Leslie Groves,PERSON,3
+Little Boy,PERSON,3
+Erasmus Smith's,PERSON,3
+Alpha Chi Sigma,PERSON,3
+Vitamin C,PERSON,3
+Ronald Reagan's,PERSON,3
+Venkatraman Ramakrishnan,PERSON,3
+G. A. Mourou,PERSON,3
+Otto Bayer,PERSON,3
+Robert Glasse,PERSON,3
+zur Hausen,PERSON,3
+Ernst Bamberg,PERSON,3
+Reith Lectures,PERSON,3
+Julian Huxley,PERSON,3
+Karl Case,PERSON,3
+Shiu-Yuen Cheng,PERSON,3
+Al Gore,PERSON,3
+Gerard K. O'Neill,PERSON,3
+Nicolas Sarkozy,PERSON,3
+James Watt,PERSON,3
+William Cavendish,PERSON,3
+Oliver Heaviside,PERSON,3
+Palomar Observatory,PERSON,3
+Honorary Fellow,PERSON,3
+von Helmholtz,PERSON,3
+Al. de Humboldt,PERSON,3
+Jean Hanson,PERSON,3
+Adolf Hitler's,PERSON,3
+Genera Plantarum,PERSON,3
+Marilyn Monk,PERSON,3
+Syntactic Structures,PERSON,3
+Richard Nixon,PERSON,3
+Space Shuttle,PERSON,3
+George Bernard Shaw,PERSON,3
+Jacques Barzun,PERSON,3
+Georg Joos,PERSON,3
+Kurt Diebner,PERSON,3
+T. Senthil,PERSON,3
+von Laue,PERSON,3
+Martin Heidegger,PERSON,3
+Herman Goldstine,PERSON,3
+Immanuel Velikovsky,PERSON,3
+Associate Dean,PERSON,3
+mosaic virus,PERSON,3
+Ned Budisa,PERSON,3
+Vincent Massey,PERSON,3
+Gilles Deleuze,PERSON,3
+van Tamelen,PERSON,3
+Arthur C. Clarke,PERSON,3
+Anna O.,PERSON,3
+Olaf Stapledon,PERSON,3
+Basil Blackwell,PERSON,3
+Common Sense,PERSON,3
+Ekon Tidsk,PERSON,3
+Josef Lakonishok,PERSON,3
+Antonio Gramsci,PERSON,3
+Leo Strauss,PERSON,3
+Frederick the Great,PERSON,3
+Sally Hemings,PERSON,3
+Gustave de Beaumont,PERSON,3
+Gene Grossman,PERSON,3
+Lev Gor'kov,PERSON,2
+Joseph Henry,PERSON,2
+George Square,PERSON,2
+Hadron Collider,PERSON,2
+Wolfgang Riezler,PERSON,2
+Hilde Levi,PERSON,2
+Ernst Walter Kellermann,PERSON,2
+Robert Schlapp,PERSON,2
+smart antennas,PERSON,2
+de Broglie,PERSON,2
+Space Shuttle Columbia,PERSON,2
+Daniel Esteve,PERSON,2
+Christopher Nolan,PERSON,2
+Mary McFadden,PERSON,2
+Maurice Lévy,PERSON,2
+Paul H. Frampton,PERSON,2
+Willibald Jentschke,PERSON,2
+Josef Mattauch,PERSON,2
+Alex Krizhevsky,PERSON,2
+Robert Jaffe,PERSON,2
+Jacques Benveniste,PERSON,2
+Robert M. Bass,PERSON,2
+Brian P. Schmidt,PERSON,2
+John Kerry,PERSON,2
+Brian Schmidt,PERSON,2
+Clyde Wiegand,PERSON,2
+Stony Brook,PERSON,2
+T. T. Wu,PERSON,2
+Alexander Efros,PERSON,2
+Max Tishler,PERSON,2
+Otto Fischer,PERSON,2
+Baker Lectures,PERSON,2
+Dr Lee's,PERSON,2
+Beryl M. Oughton,PERSON,2
+Beryl Oughton,PERSON,2
+Ava Helen,PERSON,2
+Benedict XVI,PERSON,2
+Leslie Barnett,PERSON,2
+Gustav Nossal,PERSON,2
+Keith Porter,PERSON,2
+Emil Mrena,PERSON,2
+Acta Crystallographica,PERSON,2
+Louise Brown,PERSON,2
+Wilhelm II,PERSON,2
+Von Behring,PERSON,2
+von Euler,PERSON,2
+Helen H. Hobbs,PERSON,2
+Vincent Astor,PERSON,2
+knockout mouse,PERSON,2
+Pierre Joly,PERSON,2
+Li Ka Shing,PERSON,2
+Margaret Thatcher,PERSON,2
+Elliot Barnathan,PERSON,2
+Ian MacLachlan,PERSON,2
+Kurt Henseleit,PERSON,2
+Joseph Stalin's,PERSON,2
+Murdoch Mitchison,PERSON,2
+Theodore W. Rall,PERSON,2
+Photo 51,PERSON,2
+Solomon Berson,PERSON,2
+Ron Konopka,PERSON,2
+Eric Bettinger,PERSON,2
+Tamil Nadu,PERSON,2
+Ayn Rand,PERSON,2
+Guillermo de la Dehesa,PERSON,2
+Charles Taylor,PERSON,2
+Alva Myrdal,PERSON,2
+Robert J. Nordhaus,PERSON,2
+Charles Tiebout,PERSON,2
+Robert Warren,PERSON,2
+Harry Bradley Foundation,PERSON,2
+John Morgan,PERSON,2
+Nicolas Bourbaki,PERSON,2
+Claude Chevalley's,PERSON,2
+Manfred Einsiedler,PERSON,2
+Philippe Michel,PERSON,2
+Yuri Linnik,PERSON,2
+Amir Mohammadi,PERSON,2
+C. T. C. Wall,PERSON,2
+Andrei Suslin,PERSON,2
+Dennis Branstad,PERSON,2
+Charles Rackoff,PERSON,2
+Shlomo Moran,PERSON,2
+Nathaniel Rochester,PERSON,2
+Steve Jobs,PERSON,2
+Alfred P. Sloan,PERSON,2
+Christiaan Huygens,PERSON,2
+Paul Malliavin,PERSON,2
+Élie Cartan,PERSON,2
+Stanisław Ulam,PERSON,2
+Sergei Fomin,PERSON,2
+Tetsuji Miwa,PERSON,2
+Serge Lang,PERSON,2
+Monroe D Donsker,PERSON,2
+Thomas Young,PERSON,2
+Joseph von Fraunhofer,PERSON,2
+Samuel Hunter Christie,PERSON,2
+Robert Boyle,PERSON,2
+Friedrich Wilhelm Bessel,PERSON,2
+Henry Brougham,PERSON,2
+Tycho Brahe,PERSON,2
+Peter Desaga,PERSON,2
+Joseph von Fraunhofer's,PERSON,2
+Camille Pissarro,PERSON,2
+Mauna Kea,PERSON,2
+René Dubos,PERSON,2
+William Snow Harris,PERSON,2
+Aimé Bonpland,PERSON,2
+John Muir,PERSON,2
+Ida Laura Pfeiffer,PERSON,2
+Jahren 1799,PERSON,2
+Varnhagen von Ense,PERSON,2
+Joseph Lister,PERSON,2
+Henry James,PERSON,2
+Robert Chambers,PERSON,2
+George Eastman,PERSON,2
+John Marshall,PERSON,2
+King Edward VII,PERSON,2
+Samuel Haughton,PERSON,2
+Egon Orowan,PERSON,2
+Frederick Bawden,PERSON,2
+William Wordsworth,PERSON,2
+Alexander Bain,PERSON,2
+Andrew Millar,PERSON,2
+Alexandre Yersin,PERSON,2
+Pathologische Anatomie,PERSON,2
+Benno Reinhardt,PERSON,2
+Virchows Archiv,PERSON,2
+Joseph II,PERSON,2
+David Brewster,PERSON,2
+Maurice Ewing,PERSON,2
+de Candolle,PERSON,2
+George William Gray,PERSON,2
+Thomas Gold,PERSON,2
+Walter Stevenson,PERSON,2
+Joseph Paxton,PERSON,2
+William Bradbury,PERSON,2
+Charles S. Myers,PERSON,2
+Macedonio Melloni,PERSON,2
+Marie Stoner,PERSON,2
+David Greybeard,PERSON,2
+Bikini Atoll,PERSON,2
+Carl Wunsch,PERSON,2
+Leonore Herzenberg,PERSON,2
+Norsk Hydro,PERSON,2
+Gerald Ford,PERSON,2
+Andrew Schofield,PERSON,2
+Maxim Dzero,PERSON,2
+Higgs boson,PERSON,2
+Henry Tizard,PERSON,2
+Rudolf Tomaschek,PERSON,2
+Peter Bergmann,PERSON,2
+J. V. V.,PERSON,2
+Fred Whipple,PERSON,2
+Simon Singh,PERSON,2
+Heitz Boyer,PERSON,2
+Bernard Baruch,PERSON,2
+Kurt Liffman,PERSON,2
+Chemie und Elektrochemie,PERSON,2
+von Hippel,PERSON,2
+Harry Truman,PERSON,2
+Gerhard Hoffmann,PERSON,2
+György Marx,PERSON,2
+Bell Burnell,PERSON,2
+Sam Altman,PERSON,2
+Daniel Gross,PERSON,2
+Daniel Levy,PERSON,2
+Gary Marcus,PERSON,2
+Gilles Holst,PERSON,2
+the De Haas,PERSON,2
+Kharkov Governorate,PERSON,2
+Bernard Schriever,PERSON,2
+Trevor Gardner,PERSON,2
+Ernest Courant,PERSON,2
+Charles Kane,PERSON,2
+Jason Alicea,PERSON,2
+Elizabeth Muller,PERSON,2
+Tom Carver,PERSON,2
+David Attenborough,PERSON,2
+John D. Rockefeller Jr.,PERSON,2
+Giorgi Dvali,PERSON,2
+Thomas Jay Oord,PERSON,2
+Nicholas Beale,PERSON,2
+Canon John Young,PERSON,2
+York Courses,PERSON,2
+Michael Ruse,PERSON,2
+M. Jamil Aslam,PERSON,2
+Living Reviews,PERSON,2
+Franklin Stahl,PERSON,2

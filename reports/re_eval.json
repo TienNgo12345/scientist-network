@@ -1,0 +1,210 @@
+{
+  "pairs": 36843,
+  "positive_pairs": 8872,
+  "train_pairs": 29622,
+  "test_pairs": 7221,
+  "labels": {
+    "DOCTORAL_ADVISOR_OF<": {
+      "object_type": "Scientist",
+      "pos_train": 308,
+      "pos_test": 87,
+      "neg_test": 920,
+      "baseline_type_only_precision": 0.0864,
+      "at_0.5": {
+        "precision": 0.8286,
+        "recall": 0.3333,
+        "f1": 0.4754,
+        "predicted": 35
+      },
+      "threshold": 0.5,
+      "at_threshold": {
+        "precision": 0.8286,
+        "recall": 0.3333,
+        "f1": 0.4754,
+        "predicted": 35
+      }
+    },
+    "DOCTORAL_ADVISOR_OF>": {
+      "object_type": "Scientist",
+      "pos_train": 288,
+      "pos_test": 75,
+      "neg_test": 932,
+      "baseline_type_only_precision": 0.0745,
+      "at_0.5": {
+        "precision": 0.9189,
+        "recall": 0.4533,
+        "f1": 0.6071,
+        "predicted": 37
+      },
+      "threshold": 0.5,
+      "at_threshold": {
+        "precision": 0.9189,
+        "recall": 0.4533,
+        "f1": 0.6071,
+        "predicted": 37
+      }
+    },
+    "ACADEMIC_ADVISOR_OF<": {
+      "object_type": "Scientist",
+      "pos_train": 135,
+      "pos_test": 46,
+      "neg_test": 961,
+      "baseline_type_only_precision": 0.0457,
+      "at_0.5": {
+        "precision": 0.5,
+        "recall": 0.0217,
+        "f1": 0.0417,
+        "predicted": 2
+      },
+      "threshold": null,
+      "at_threshold": null
+    },
+    "ACADEMIC_ADVISOR_OF>": {
+      "object_type": "Scientist",
+      "pos_train": 79,
+      "pos_test": 14,
+      "neg_test": 993,
+      "baseline_type_only_precision": 0.0139,
+      "at_0.5": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "predicted": 0
+      },
+      "threshold": null,
+      "at_threshold": null
+    },
+    "INFLUENCED<": {
+      "object_type": "Scientist",
+      "pos_train": 60,
+      "pos_test": 18,
+      "neg_test": 989,
+      "baseline_type_only_precision": 0.0179,
+      "at_0.5": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "predicted": 0
+      },
+      "threshold": null,
+      "at_threshold": null
+    },
+    "INFLUENCED>": {
+      "object_type": "Scientist",
+      "pos_train": 38,
+      "pos_test": 13,
+      "neg_test": 994,
+      "baseline_type_only_precision": 0.0129,
+      "at_0.5": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "predicted": 0
+      },
+      "threshold": null,
+      "at_threshold": null
+    },
+    "COLLABORATED_WITH>": {
+      "object_type": "Scientist",
+      "pos_train": 448,
+      "pos_test": 110,
+      "neg_test": 897,
+      "baseline_type_only_precision": 0.1092,
+      "at_0.5": {
+        "precision": 0.7763,
+        "recall": 0.5364,
+        "f1": 0.6344,
+        "predicted": 76
+      },
+      "threshold": 0.59,
+      "at_threshold": {
+        "precision": 0.803,
+        "recall": 0.4818,
+        "f1": 0.6023,
+        "predicted": 66
+      }
+    },
+    "STUDIED_AT>": {
+      "object_type": "Institution",
+      "pos_train": 843,
+      "pos_test": 211,
+      "neg_test": 1155,
+      "baseline_type_only_precision": 0.1545,
+      "at_0.5": {
+        "precision": 0.693,
+        "recall": 0.3744,
+        "f1": 0.4862,
+        "predicted": 114
+      },
+      "threshold": 0.72,
+      "at_threshold": {
+        "precision": 0.8116,
+        "recall": 0.2654,
+        "f1": 0.4,
+        "predicted": 69
+      }
+    },
+    "WORKED_AT>": {
+      "object_type": "Institution",
+      "pos_train": 2232,
+      "pos_test": 557,
+      "neg_test": 809,
+      "baseline_type_only_precision": 0.4078,
+      "at_0.5": {
+        "precision": 0.6203,
+        "recall": 0.5601,
+        "f1": 0.5887,
+        "predicted": 503
+      },
+      "threshold": 0.89,
+      "at_threshold": {
+        "precision": 0.8095,
+        "recall": 0.0305,
+        "f1": 0.0588,
+        "predicted": 21
+      }
+    },
+    "RECEIVED_AWARD>": {
+      "object_type": "Award",
+      "pos_train": 757,
+      "pos_test": 232,
+      "neg_test": 163,
+      "baseline_type_only_precision": 0.5873,
+      "at_0.5": {
+        "precision": 0.7965,
+        "recall": 0.7931,
+        "f1": 0.7948,
+        "predicted": 231
+      },
+      "threshold": 0.52,
+      "at_threshold": {
+        "precision": 0.8018,
+        "recall": 0.7845,
+        "f1": 0.793,
+        "predicted": 227
+      }
+    },
+    "WORKS_IN_FIELD>": {
+      "object_type": "Field",
+      "pos_train": 2270,
+      "pos_test": 551,
+      "neg_test": 3902,
+      "baseline_type_only_precision": 0.1237,
+      "at_0.5": {
+        "precision": 0.2593,
+        "recall": 0.0254,
+        "f1": 0.0463,
+        "predicted": 54
+      },
+      "threshold": null,
+      "at_threshold": null
+    }
+  },
+  "new_edges": {
+    "STUDIED_AT": 5,
+    "RECEIVED_AWARD": 23,
+    "COLLABORATED_WITH": 4
+  },
+  "new_edges_total": 32,
+  "new_edges_from_ner_mentions": 12
+}

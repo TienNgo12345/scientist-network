@@ -1,0 +1,2376 @@
+{
+ "graph": {
+  "nodes": 9271,
+  "edges": 27879,
+  "undirected_simple_edges": 26943
+ },
+ "small_world": [
+  {
+   "network": "Đồ thị tri thức đầy đủ",
+   "lcc_nodes": 9255,
+   "lcc_edges": 26933,
+   "lcc_share": 0.9983,
+   "avg_degree": 5.82,
+   "avg_shortest_path": 4.501,
+   "diameter": 10,
+   "avg_clustering": 0.0326,
+   "transitivity": 0.0131,
+   "log_n_over_log_k": 5.185,
+   "random_ER": {
+    "avg_shortest_path": 5.385,
+    "avg_clustering": 0.00072
+   },
+   "random_config": {
+    "avg_shortest_path": 4.143,
+    "avg_clustering": 0.01164
+   },
+   "sigma": 53.82,
+   "share_pairs_within_6_hops": 0.9949,
+   "hop_histogram": {
+    "1": 53866,
+    "2": 1671570,
+    "3": 11691338,
+    "4": 29216718,
+    "5": 28400766,
+    "6": 14175450,
+    "7": 379324,
+    "8": 56420,
+    "9": 292,
+    "10": 26
+   }
+  },
+  {
+   "network": "Mạng nhà khoa học – nhà khoa học",
+   "lcc_nodes": 3896,
+   "lcc_edges": 4632,
+   "lcc_share": 0.775,
+   "avg_degree": 2.378,
+   "avg_shortest_path": 9.95,
+   "diameter": 31,
+   "avg_clustering": 0.0289,
+   "transitivity": 0.0273,
+   "log_n_over_log_k": 9.545,
+   "random_ER": {
+    "avg_shortest_path": 9.195,
+    "avg_clustering": 0.00101
+   },
+   "random_config": {
+    "avg_shortest_path": 5.891,
+    "avg_clustering": 0.00183
+   },
+   "sigma": 26.49,
+   "share_pairs_within_6_hops": 0.1544,
+   "hop_histogram": {
+    "1": 9264,
+    "2": 55094,
+    "3": 148050,
+    "4": 366584,
+    "5": 691516,
+    "6": 1072968,
+    "7": 1469056,
+    "8": 1818944,
+    "9": 1951904,
+    "10": 1794220,
+    "11": 1469468,
+    "12": 1135514,
+    "13": 858770,
+    "14": 652828,
+    "15": 486402,
+    "16": 366046,
+    "17": 273280,
+    "18": 202340,
+    "19": 140828,
+    "20": 88044,
+    "21": 52434,
+    "22": 31354,
+    "23": 19078,
+    "24": 10240,
+    "25": 4958,
+    "26": 2870,
+    "27": 1764,
+    "28": 798,
+    "29": 238,
+    "30": 58,
+    "31": 8
+   }
+  }
+ ],
+ "ranking": {
+  "pagerank_all_nodes": [
+   [
+    "Physics",
+    0.004641
+   ],
+   [
+    "Harvard University",
+    0.004515
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    0.003841
+   ],
+   [
+    "Royal Medal",
+    0.003512
+   ],
+   [
+    "University of Chicago",
+    0.003101
+   ],
+   [
+    "Chemistry",
+    0.003018
+   ],
+   [
+    "University of California, Berkeley",
+    0.002873
+   ],
+   [
+    "Copley Medal",
+    0.00282
+   ],
+   [
+    "University of Cambridge",
+    0.002488
+   ],
+   [
+    "Columbia University",
+    0.00237
+   ],
+   [
+    "California Institute of Technology",
+    0.002321
+   ],
+   [
+    "Stanford University",
+    0.002316
+   ],
+   [
+    "Fellow of the Royal Society",
+    0.002297
+   ],
+   [
+    "Princeton University",
+    0.002249
+   ],
+   [
+    "Nobel Prize in Physiology or Medicine",
+    0.002193
+   ],
+   [
+    "Mathematics",
+    0.002104
+   ],
+   [
+    "Nobel Prize in Physics",
+    0.001714
+   ],
+   [
+    "Nobel Prize in Chemistry",
+    0.001695
+   ],
+   [
+    "Yale University",
+    0.001586
+   ],
+   [
+    "Biochemistry",
+    0.001585
+   ]
+  ],
+  "pagerank_scientists": [
+   [
+    "Noam Chomsky",
+    0.001558
+   ],
+   [
+    "Friedrich Hayek",
+    0.000882
+   ],
+   [
+    "John Maynard Keynes",
+    0.000656
+   ],
+   [
+    "Vilfredo Pareto",
+    0.000588
+   ],
+   [
+    "Thomas Piketty",
+    0.000479
+   ],
+   [
+    "Milton Friedman",
+    0.000463
+   ],
+   [
+    "Robin Hahnel",
+    0.000426
+   ],
+   [
+    "Maurice Kugler",
+    0.000419
+   ],
+   [
+    "Alexander von Humboldt",
+    0.000408
+   ],
+   [
+    "Frank Knight",
+    0.000384
+   ],
+   [
+    "John Edward Marr",
+    0.000353
+   ],
+   [
+    "Oliver E. Williamson",
+    0.000349
+   ],
+   [
+    "John Rawls",
+    0.000342
+   ],
+   [
+    "Ludwig von Mises",
+    0.00032
+   ],
+   [
+    "Joseph Schumpeter",
+    0.000315
+   ],
+   [
+    "Rudolf Carnap",
+    0.000313
+   ],
+   [
+    "Carl Menger",
+    0.000296
+   ],
+   [
+    "Eugen von Böhm-Bawerk",
+    0.000294
+   ],
+   [
+    "Walter Block",
+    0.000293
+   ],
+   [
+    "Maryam Mirzakhani",
+    0.000283
+   ]
+  ],
+  "pagerank_institutions": [
+   [
+    "Harvard University",
+    0.004515
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    0.003841
+   ],
+   [
+    "University of Chicago",
+    0.003101
+   ],
+   [
+    "University of California, Berkeley",
+    0.002873
+   ],
+   [
+    "University of Cambridge",
+    0.002488
+   ],
+   [
+    "Columbia University",
+    0.00237
+   ],
+   [
+    "California Institute of Technology",
+    0.002321
+   ],
+   [
+    "Stanford University",
+    0.002316
+   ],
+   [
+    "Princeton University",
+    0.002249
+   ],
+   [
+    "Yale University",
+    0.001586
+   ],
+   [
+    "University of Oxford",
+    0.001418
+   ],
+   [
+    "Humboldt University of Berlin",
+    0.001376
+   ],
+   [
+    "Cornell University",
+    0.001306
+   ],
+   [
+    "University College London",
+    0.001214
+   ],
+   [
+    "University of Göttingen",
+    0.001145
+   ],
+   [
+    "University of Michigan",
+    0.001061
+   ],
+   [
+    "University of Edinburgh",
+    0.000962
+   ],
+   [
+    "University of Pennsylvania",
+    0.000884
+   ],
+   [
+    "London School of Economics",
+    0.000859
+   ],
+   [
+    "University of California, Los Angeles",
+    0.000856
+   ]
+  ],
+  "pagerank_awards": [
+   [
+    "Royal Medal",
+    0.003512
+   ],
+   [
+    "Copley Medal",
+    0.00282
+   ],
+   [
+    "Fellow of the Royal Society",
+    0.002297
+   ],
+   [
+    "Nobel Prize in Physiology or Medicine",
+    0.002193
+   ],
+   [
+    "Nobel Prize in Physics",
+    0.001714
+   ],
+   [
+    "Nobel Prize in Chemistry",
+    0.001695
+   ],
+   [
+    "National Medal of Science",
+    0.001191
+   ],
+   [
+    "Nobel Memorial Prize in Economic Sciences",
+    0.001062
+   ],
+   [
+    "Fields Medal",
+    0.000783
+   ],
+   [
+    "Turing Award",
+    0.000656
+   ],
+   [
+    "Wolf Prize in Mathematics",
+    0.000636
+   ],
+   [
+    "Davy Medal",
+    0.000554
+   ],
+   [
+    "Wolf Prize in Physics",
+    0.000546
+   ],
+   [
+    "Wollaston Medal",
+    0.000546
+   ],
+   [
+    "Cameron Prize for Therapeutics of the University of Edinburgh",
+    0.00053
+   ],
+   [
+    "Canada Gairdner International Award",
+    0.000508
+   ],
+   [
+    "Gold Medal of the Royal Astronomical Society",
+    0.000507
+   ],
+   [
+    "Louisa Gross Horwitz Prize",
+    0.000491
+   ],
+   [
+    "Kyoto Prize",
+    0.000485
+   ],
+   [
+    "Albert Lasker Award for Basic Medical Research",
+    0.00047
+   ]
+  ],
+  "pagerank_scientist_network": [
+   [
+    "Friedrich Hayek",
+    0.00276
+   ],
+   [
+    "Noam Chomsky",
+    0.002747
+   ],
+   [
+    "Milton Friedman",
+    0.001464
+   ],
+   [
+    "Debendra Mohan Bose",
+    0.001288
+   ],
+   [
+    "John Maynard Keynes",
+    0.001244
+   ],
+   [
+    "Thomas Piketty",
+    0.001241
+   ],
+   [
+    "Bibha Chowdhuri",
+    0.001126
+   ],
+   [
+    "Oliver E. Williamson",
+    0.001056
+   ],
+   [
+    "Vilfredo Pareto",
+    0.001022
+   ],
+   [
+    "Michael Rosbash",
+    0.001007
+   ],
+   [
+    "Robin Hahnel",
+    0.001004
+   ],
+   [
+    "Maurice Kugler",
+    0.000989
+   ],
+   [
+    "Jeffrey C. Hall",
+    0.000936
+   ],
+   [
+    "Niels Bohr",
+    0.000903
+   ],
+   [
+    "Masatoshi Koshiba",
+    0.000892
+   ],
+   [
+    "Max Born",
+    0.000888
+   ],
+   [
+    "Herbert A. Simon",
+    0.000861
+   ],
+   [
+    "Caucher Birkar",
+    0.000839
+   ],
+   [
+    "Hyman Minsky",
+    0.000812
+   ],
+   [
+    "Paul Samuelson",
+    0.000792
+   ]
+  ],
+  "betweenness_scientists": [
+   [
+    "Noam Chomsky",
+    0.016448
+   ],
+   [
+    "Robert S. Langer",
+    0.013598
+   ],
+   [
+    "Abdus Salam",
+    0.010767
+   ],
+   [
+    "John Rawls",
+    0.007762
+   ],
+   [
+    "Friedrich Hayek",
+    0.007367
+   ],
+   [
+    "Arnold Sommerfeld",
+    0.007122
+   ],
+   [
+    "Kenneth Arrow",
+    0.007084
+   ],
+   [
+    "Linus Pauling",
+    0.00673
+   ],
+   [
+    "Thomas Sowell",
+    0.006692
+   ],
+   [
+    "David Hilbert",
+    0.006637
+   ],
+   [
+    "Felix Klein",
+    0.006028
+   ],
+   [
+    "Milton Friedman",
+    0.005907
+   ],
+   [
+    "Donald Knuth",
+    0.005892
+   ],
+   [
+    "Roger Penrose",
+    0.0056
+   ],
+   [
+    "Elias James Corey",
+    0.005399
+   ],
+   [
+    "Sydney Brenner",
+    0.005241
+   ],
+   [
+    "Dennis W. Sciama",
+    0.005229
+   ],
+   [
+    "Terence Tao",
+    0.004967
+   ],
+   [
+    "Amartya Sen",
+    0.004881
+   ],
+   [
+    "Subrahmanyan Chandrasekhar",
+    0.004827
+   ]
+  ],
+  "degree_scientists": [
+   [
+    "Noam Chomsky",
+    97
+   ],
+   [
+    "Robert S. Langer",
+    72
+   ],
+   [
+    "Friedrich Hayek",
+    60
+   ],
+   [
+    "Abdus Salam",
+    57
+   ],
+   [
+    "Arnold Sommerfeld",
+    49
+   ],
+   [
+    "Linus Pauling",
+    49
+   ],
+   [
+    "Milton Friedman",
+    47
+   ],
+   [
+    "John Maynard Keynes",
+    45
+   ],
+   [
+    "David Hilbert",
+    43
+   ],
+   [
+    "Elias James Corey",
+    42
+   ],
+   [
+    "Niels Bohr",
+    41
+   ],
+   [
+    "Stephen Hawking",
+    41
+   ],
+   [
+    "Thomas Sowell",
+    41
+   ],
+   [
+    "Max Born",
+    40
+   ],
+   [
+    "Roger Penrose",
+    40
+   ],
+   [
+    "John Archibald Wheeler",
+    39
+   ],
+   [
+    "Kenneth Arrow",
+    39
+   ],
+   [
+    "Amartya Sen",
+    38
+   ],
+   [
+    "Hans Bethe",
+    38
+   ],
+   [
+    "Enrico Fermi",
+    37
+   ]
+  ],
+  "hits_authority": [
+   [
+    "Friedrich Hayek",
+    0.071702
+   ],
+   [
+    "Milton Friedman",
+    0.033194
+   ],
+   [
+    "Noam Chomsky",
+    0.032133
+   ],
+   [
+    "Joseph Schumpeter",
+    0.029236
+   ],
+   [
+    "Thomas Sowell",
+    0.025206
+   ],
+   [
+    "Amartya Sen",
+    0.025033
+   ],
+   [
+    "Thomas Piketty",
+    0.022716
+   ],
+   [
+    "Joan Robinson",
+    0.022031
+   ],
+   [
+    "Robin Hahnel",
+    0.020354
+   ],
+   [
+    "Piero Sraffa",
+    0.019908
+   ],
+   [
+    "Hyman Minsky",
+    0.018298
+   ],
+   [
+    "Paul Samuelson",
+    0.015938
+   ],
+   [
+    "Vilfredo Pareto",
+    0.014863
+   ],
+   [
+    "John Hicks",
+    0.014592
+   ],
+   [
+    "Abba P. Lerner",
+    0.012807
+   ]
+  ],
+  "hits_hub": [
+   [
+    "John Maynard Keynes",
+    0.059235
+   ],
+   [
+    "Adam Smith",
+    0.041386
+   ],
+   [
+    "Karl Marx",
+    0.036901
+   ],
+   [
+    "Ludwig von Mises",
+    0.020645
+   ],
+   [
+    "Friedrich Hayek",
+    0.019249
+   ],
+   [
+    "Eugen von Böhm-Bawerk",
+    0.017495
+   ],
+   [
+    "David Hume",
+    0.016936
+   ],
+   [
+    "Carl Menger",
+    0.016856
+   ],
+   [
+    "Ludwig Wittgenstein",
+    0.016765
+   ],
+   [
+    "Knut Wicksell",
+    0.014501
+   ],
+   [
+    "John Rawls",
+    0.014188
+   ],
+   [
+    "John Stuart Mill",
+    0.01316
+   ],
+   [
+    "Friedrich von Wieser",
+    0.013151
+   ],
+   [
+    "John Locke",
+    0.012928
+   ],
+   [
+    "Thomas Jefferson",
+    0.012928
+   ]
+  ],
+  "spearman_pagerank_vs_betweenness_scientists": 0.199
+ },
+ "communities": {
+  "louvain_count": 47,
+  "louvain_modularity": 0.5536,
+  "label_propagation_count": 249,
+  "label_propagation_modularity": 0.2472,
+  "sizes_top20": [
+   1490,
+   1305,
+   1295,
+   1109,
+   997,
+   853,
+   674,
+   380,
+   268,
+   226,
+   156,
+   52,
+   51,
+   41,
+   37,
+   24,
+   24,
+   23,
+   23,
+   23
+  ],
+  "share_in_top10": 0.9273,
+  "top": [
+   {
+    "id": 0,
+    "size": 1490,
+    "labels": {
+     "Scientist": 949,
+     "Award": 237,
+     "Institution": 227,
+     "Field": 77
+    },
+    "top_fields": [
+     "Physics",
+     "Astronomy",
+     "Physicist"
+    ],
+    "top_institutions": [
+     "University of Cambridge",
+     "Cornell University",
+     "Trinity College, Cambridge"
+    ],
+    "top_awards": [
+     "Fellow of the Royal Society",
+     "Nobel Prize in Physics",
+     "National Medal of Science"
+    ],
+    "top_scientists_pagerank": [
+     "Niels Bohr",
+     "Jeffrey Goldstone",
+     "Edward Routh",
+     "Rudolf Peierls",
+     "Kurt Gödel",
+     "Neil S. Sullivan",
+     "William Edward Ayrton",
+     "Boyce McDaniel"
+    ],
+    "k_core_max": 6,
+    "nucleus": [
+     "Niels Bohr",
+     "Rudolf Peierls",
+     "Albert Einstein",
+     "Max Born",
+     "Bruno Rossi",
+     "Gregory Breit",
+     "John Randall (physicist)",
+     "Michael Berry (physicist)"
+    ]
+   },
+   {
+    "id": 1,
+    "size": 1305,
+    "labels": {
+     "Scientist": 681,
+     "Institution": 329,
+     "Field": 110,
+     "Award": 185
+    },
+    "top_fields": [
+     "Biochemistry",
+     "Genetics",
+     "Physiology"
+    ],
+    "top_institutions": [
+     "Columbia University",
+     "California Institute of Technology",
+     "University of Wisconsin–Madison"
+    ],
+    "top_awards": [
+     "Nobel Prize in Physiology or Medicine",
+     "Louisa Gross Horwitz Prize",
+     "Canada Gairdner International Award"
+    ],
+    "top_scientists_pagerank": [
+     "Feng Zhang",
+     "Eloise Giblett",
+     "Robert G. Roeder",
+     "Howard Y. Chang",
+     "John Eccles (neurophysiologist)",
+     "Edward Boyden",
+     "Kenneth Holmes",
+     "Kate Adamala"
+    ],
+    "k_core_max": 6,
+    "nucleus": [
+     "Robert G. Roeder",
+     "Matthew Meselson",
+     "Richard Scheller",
+     "Karl Deisseroth",
+     "Jack W. Szostak",
+     "Jeffrey C. Hall",
+     "Sydney Brenner",
+     "Marshall Warren Nirenberg"
+    ]
+   },
+   {
+    "id": 2,
+    "size": 1295,
+    "labels": {
+     "Field": 153,
+     "Institution": 226,
+     "Scientist": 829,
+     "Award": 87
+    },
+    "top_fields": [
+     "Economics",
+     "Macroeconomics",
+     "Econometrics"
+    ],
+    "top_institutions": [
+     "Harvard University",
+     "Massachusetts Institute of Technology",
+     "University of California, Berkeley"
+    ],
+    "top_awards": [
+     "Nobel Memorial Prize in Economic Sciences",
+     "John Bates Clark Medal",
+     "Sloan Research Fellowship"
+    ],
+    "top_scientists_pagerank": [
+     "Friedrich Hayek",
+     "John Maynard Keynes",
+     "Vilfredo Pareto",
+     "Thomas Piketty",
+     "Milton Friedman",
+     "Robin Hahnel",
+     "Maurice Kugler",
+     "Frank Knight"
+    ],
+    "k_core_max": 6,
+    "nucleus": [
+     "Friedrich Hayek",
+     "John Maynard Keynes",
+     "Vilfredo Pareto",
+     "Thomas Piketty",
+     "Milton Friedman",
+     "Robin Hahnel",
+     "Frank Knight",
+     "Oliver E. Williamson"
+    ]
+   },
+   {
+    "id": 3,
+    "size": 1109,
+    "labels": {
+     "Institution": 197,
+     "Field": 69,
+     "Scientist": 732,
+     "Award": 111
+    },
+    "top_fields": [
+     "Chemistry",
+     "Physical Chemistry",
+     "Inorganic chemistry"
+    ],
+    "top_institutions": [
+     "Humboldt University of Berlin",
+     "University of Göttingen",
+     "LMU Munich"
+    ],
+    "top_awards": [
+     "Nobel Prize in Chemistry",
+     "Davy Medal",
+     "Willard Gibbs Award"
+    ],
+    "top_scientists_pagerank": [
+     "Rudolf Carnap",
+     "Johannes Peter Müller",
+     "Ludwig Boltzmann",
+     "Ladislaus Bortkiewicz",
+     "Arthur von Oettingen",
+     "Svante Arrhenius",
+     "Alexander William Bickerton",
+     "Lihong V. Wang"
+    ],
+    "k_core_max": 5,
+    "nucleus": [
+     "Ludwig Boltzmann",
+     "Svante Arrhenius",
+     "Wilhelm Rudolph Fittig",
+     "Julius Plücker",
+     "Friedrich Paneth",
+     "Paul Flory",
+     "Justus von Liebig",
+     "Wolfgang Franz (mathematician)"
+    ]
+   },
+   {
+    "id": 4,
+    "size": 997,
+    "labels": {
+     "Scientist": 643,
+     "Institution": 149,
+     "Award": 146,
+     "Field": 59
+    },
+    "top_fields": [
+     "Mathematics",
+     "Organic Chemistry",
+     "Organometallic Chemistry"
+    ],
+    "top_institutions": [
+     "University of Paris",
+     "École normale supérieure (Paris)",
+     "Kyoto University"
+    ],
+    "top_awards": [
+     "Fields Medal",
+     "Wolf Prize in Mathematics",
+     "Leroy P. Steele Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Maryam Mirzakhani",
+     "Friedrich Hirzebruch",
+     "Melanie Sanford",
+     "Karen Goldberg",
+     "Caucher Birkar",
+     "Grigori Perelman",
+     "Lars Ahlfors",
+     "Lars Hörmander"
+    ],
+    "k_core_max": 5,
+    "nucleus": [
+     "Pierre Deligne",
+     "Terence Tao",
+     "Andrew Wiles",
+     "John Tate (mathematician)",
+     "Jean-François Le Gall",
+     "Jean-Christophe Yoccoz",
+     "Oscar Zariski",
+     "Alain Connes"
+    ]
+   },
+   {
+    "id": 5,
+    "size": 853,
+    "labels": {
+     "Scientist": 500,
+     "Field": 104,
+     "Institution": 144,
+     "Award": 105
+    },
+    "top_fields": [
+     "Geology",
+     "Botany",
+     "Zoology"
+    ],
+    "top_institutions": [
+     "University of Oxford",
+     "University College London",
+     "University of Edinburgh"
+    ],
+    "top_awards": [
+     "Royal Medal",
+     "Copley Medal",
+     "Crafoord Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Alexander von Humboldt",
+     "John Edward Marr",
+     "Harold Barlow",
+     "Louis Agassiz",
+     "Bertrand Russell",
+     "Adam Sedgwick",
+     "W. D. Hamilton",
+     "Stephen Gray (scientist)"
+    ],
+    "k_core_max": 4,
+    "nucleus": [
+     "John Edward Marr",
+     "Adam Sedgwick",
+     "W. D. Hamilton",
+     "William Benjamin Carpenter",
+     "Charles Darwin",
+     "Simon Donaldson",
+     "Gerald J. Wasserburg",
+     "Walter Munk"
+    ]
+   },
+   {
+    "id": 6,
+    "size": 674,
+    "labels": {
+     "Award": 104,
+     "Scientist": 397,
+     "Institution": 119,
+     "Field": 54
+    },
+    "top_fields": [
+     "Computer science",
+     "Statistics",
+     "Artificial intelligence"
+    ],
+    "top_institutions": [
+     "University of Toronto",
+     "Tel Aviv University",
+     "Weizmann Institute of Science"
+    ],
+    "top_awards": [
+     "Turing Award",
+     "BBVA Foundation Frontiers of Knowledge Award",
+     "Member of the National Academy of Sciences"
+    ],
+    "top_scientists_pagerank": [
+     "Alan Kay",
+     "Charles H. Bennett (physicist)",
+     "Donald Knuth",
+     "Zoubin Ghahramani",
+     "Adi Shamir",
+     "David Bohm",
+     "Alex Graves (computer scientist)",
+     "Brian Stoltz"
+    ],
+    "k_core_max": 4,
+    "nucleus": [
+     "Donald Knuth",
+     "Zoubin Ghahramani",
+     "Adi Shamir",
+     "Alex Graves (computer scientist)",
+     "Robert Kahn (computer scientist)",
+     "Martin Hellman",
+     "Robert Metcalfe",
+     "Andrew Barto"
+    ]
+   },
+   {
+    "id": 7,
+    "size": 380,
+    "labels": {
+     "Scientist": 184,
+     "Institution": 103,
+     "Award": 51,
+     "Field": 42
+    },
+    "top_fields": [
+     "Theoretical physics",
+     "Plasma (physics)",
+     "String theory"
+    ],
+    "top_institutions": [
+     "Imperial College London",
+     "University of London",
+     "University of Calcutta"
+    ],
+    "top_awards": [
+     "Shanti Swarup Bhatnagar Prize for Science and Technology",
+     "Padma Bhushan",
+     "Padma Vibhushan"
+    ],
+    "top_scientists_pagerank": [
+     "Partha Ghose",
+     "Rana X. Adhikari",
+     "Gwilym Jenkins",
+     "Debendra Mohan Bose",
+     "Satyendra Nath Bose",
+     "Jonathon Pines",
+     "S. R. Srinivasa Varadhan",
+     "Jonathan Ashmore"
+    ],
+    "k_core_max": 6,
+    "nucleus": [
+     "Fayyazuddin",
+     "Abdus Salam",
+     "Masud Ahmad",
+     "Faheem Hussain",
+     "Ghulam Murtaza (physicist)",
+     "Kamaluddin Ahmed (physicist)",
+     "Paul Taunton Matthews",
+     "Riazuddin (physicist)"
+    ]
+   },
+   {
+    "id": 8,
+    "size": 268,
+    "labels": {
+     "Scientist": 157,
+     "Institution": 59,
+     "Award": 39,
+     "Field": 13
+    },
+    "top_fields": [
+     "Functional analysis",
+     "Pure mathematics",
+     "Gravity"
+    ],
+    "top_institutions": [
+     "Moscow State University",
+     "Saint Petersburg State University",
+     "Moscow Institute of Physics and Technology"
+    ],
+    "top_awards": [
+     "Lomonosov Gold Medal",
+     "USSR State Prize",
+     "Lenin Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Yakov Zeldovich",
+     "Eric van Damme",
+     "Viatcheslav Mukhanov",
+     "Nikolay Semyonov",
+     "Andrei Okounkov",
+     "Sergey Vavilov",
+     "Vladimir Smirnov (mathematician)",
+     "Andrey Kolmogorov"
+    ],
+    "k_core_max": 4,
+    "nucleus": [
+     "Yakov Zeldovich",
+     "Nikolay Semyonov",
+     "Vladimir Veksler",
+     "Yulii Khariton",
+     "Leonid Keldysh",
+     "Igor Tamm",
+     "Lev Landau",
+     "Vitaly Ginzburg"
+    ]
+   },
+   {
+    "id": 9,
+    "size": 226,
+    "labels": {
+     "Scientist": 164,
+     "Field": 13,
+     "Award": 28,
+     "Institution": 21
+    },
+    "top_fields": [
+     "Psychology",
+     "Neurology",
+     "History of science"
+    ],
+    "top_institutions": [
+     "Indiana University",
+     "University of California",
+     "Rensselaer Polytechnic Institute"
+    ],
+    "top_awards": [
+     "Kyoto Prize in Basic Sciences",
+     "APA Award for Distinguished Scientific Contributions to Psychology",
+     "Prime Minister's Prizes for Science"
+    ],
+    "top_scientists_pagerank": [
+     "Noam Chomsky",
+     "John Rawls",
+     "John B. Watson",
+     "Partha Dasgupta",
+     "Allan Franklin",
+     "Daniel Dennett",
+     "Ludwig Wittgenstein",
+     "Vladimir Bekhterev"
+    ],
+    "k_core_max": 2,
+    "nucleus": [
+     "Noam Chomsky",
+     "John B. Watson",
+     "Daniel Dennett",
+     "Vladimir Bekhterev",
+     "B. F. Skinner",
+     "Willard Van Orman Quine",
+     "William McDougall (psychologist)",
+     "W. H. R. Rivers"
+    ]
+   },
+   {
+    "id": 10,
+    "size": 156,
+    "labels": {
+     "Scientist": 77,
+     "Institution": 26,
+     "Award": 42,
+     "Field": 11
+    },
+    "top_fields": [
+     "Chemical engineering",
+     "Biotechnology",
+     "Genetic engineering"
+    ],
+    "top_institutions": [
+     "Michigan State University",
+     "Illinois Institute of Technology",
+     "University of Tennessee"
+    ],
+    "top_awards": [
+     "Charles Stark Draper Prize",
+     "Fellow of the Royal Academy of Engineering",
+     "C&C Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Robert S. Langer",
+     "Eugene Parker",
+     "Tom Kilburn",
+     "Charles K. Kao",
+     "Samuel Karlin",
+     "Arnab Rai Choudhuri",
+     "Graham Ross (physicist)",
+     "Nigel Glover"
+    ],
+    "k_core_max": 3,
+    "nucleus": [
+     "Hiroshi Amano",
+     "Isamu Akasaki",
+     "Shuji Nakamura"
+    ]
+   },
+   {
+    "id": 11,
+    "size": 52,
+    "labels": {
+     "Scientist": 27,
+     "Institution": 13,
+     "Field": 6,
+     "Award": 6
+    },
+    "top_fields": [
+     "Quantum optics",
+     "Quantum information",
+     "Logic"
+    ],
+    "top_institutions": [
+     "University of Warsaw",
+     "University of Southampton",
+     "Institute for Quantum Computing"
+    ],
+    "top_awards": [
+     "Prize of the Foundation for Polish Science",
+     "Willis E. Lamb Award",
+     "Hamburg Centre for Ultrafast Imaging"
+    ],
+    "top_scientists_pagerank": [
+     "Alfred Tarski",
+     "Maciej Lewenstein",
+     "Rudolf Weigl",
+     "Ludwik Rajchman",
+     "Jocelyn Bell Burnell",
+     "Stanley Pons",
+     "Robert Lawson Vaught",
+     "Julia Robinson"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Alfred Tarski",
+     "Maciej Lewenstein",
+     "Rudolf Weigl",
+     "Ludwik Rajchman",
+     "Jocelyn Bell Burnell",
+     "Stanley Pons",
+     "Robert Lawson Vaught",
+     "Julia Robinson"
+    ]
+   },
+   {
+    "id": 12,
+    "size": 51,
+    "labels": {
+     "Scientist": 51
+    },
+    "top_fields": [],
+    "top_institutions": [],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Felix Klein",
+     "David Hilbert",
+     "Ernst Zermelo",
+     "Alexander Witting",
+     "Walther von Dyck",
+     "Sophus Lie",
+     "Grace Chisholm Young",
+     "Adolf Weiler"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Felix Klein",
+     "David Hilbert",
+     "Ernst Zermelo",
+     "Alexander Witting",
+     "Walther von Dyck",
+     "Sophus Lie",
+     "Grace Chisholm Young",
+     "Adolf Weiler"
+    ]
+   },
+   {
+    "id": 13,
+    "size": 41,
+    "labels": {
+     "Scientist": 21,
+     "Award": 6,
+     "Institution": 8,
+     "Field": 6
+    },
+    "top_fields": [
+     "Bioinformatics",
+     "Molecular dynamics",
+     "Cytologist"
+    ],
+    "top_institutions": [
+     "Biotechnology and Biological Sciences Research Council",
+     "Agricultural and Food Research Council",
+     "Astex Pharmaceuticals"
+    ],
+    "top_awards": [
+     "Dan David Prize",
+     "Knighthood",
+     "Overton Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Valerie Daggett",
+     "Mark B. Gerstein",
+     "Cyrus Chothia",
+     "Jan O. Korbel",
+     "Werner G. Krebs",
+     "Julian Gough (scientist)",
+     "Steven E. Brenner",
+     "Tim Hubbard"
+    ],
+    "k_core_max": 2,
+    "nucleus": [
+     "Mark B. Gerstein",
+     "Cyrus Chothia",
+     "Julian Gough (scientist)",
+     "Steven E. Brenner",
+     "Tim Hubbard",
+     "Michael Levitt (biophysicist)",
+     "Tom Blundell"
+    ]
+   },
+   {
+    "id": 14,
+    "size": 37,
+    "labels": {
+     "Scientist": 33,
+     "Institution": 4
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Tsinghua University",
+     "Chern Institute of Mathematics",
+     "Educational Testing Service"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Wilhelm Wirtinger",
+     "Shiing-Shen Chern",
+     "Donald Rubin",
+     "Roland Weitzenböck",
+     "Leopold Vietoris",
+     "Eduard Helly",
+     "Gábor Szegő",
+     "Wilhelm Blaschke"
+    ],
+    "k_core_max": 2,
+    "nucleus": [
+     "Shiing-Shen Chern",
+     "Shing-Tung Yau"
+    ]
+   },
+   {
+    "id": 15,
+    "size": 24,
+    "labels": {
+     "Scientist": 18,
+     "Field": 2,
+     "Award": 2,
+     "Institution": 2
+    },
+    "top_fields": [
+     "Ecology",
+     "Mathematical and theoretical biology"
+    ],
+    "top_institutions": [
+     "Emmanuel College, Cambridge",
+     "Taras Shevchenko National University of Kyiv"
+    ],
+    "top_awards": [
+     "Leidy Award",
+     "Bisset Hawkins Medal"
+    ],
+    "top_scientists_pagerank": [
+     "George Karreman",
+     "Anatol Rapoport",
+     "Robert Rosen (biologist)",
+     "Carla Staver",
+     "Alan Hastings",
+     "Robert H. MacArthur",
+     "Joshua B. Plotkin",
+     "Louis J. Gross"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "George Karreman",
+     "Anatol Rapoport",
+     "Robert Rosen (biologist)",
+     "Robert H. MacArthur",
+     "Louis J. Gross",
+     "Donna Haraway",
+     "Allison K. Shaw",
+     "Howard T. Odum"
+    ]
+   },
+   {
+    "id": 16,
+    "size": 24,
+    "labels": {
+     "Scientist": 15,
+     "Award": 3,
+     "Institution": 6
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "University of California, Irvine",
+     "Ludwig Cancer Research",
+     "Korea University"
+    ],
+    "top_awards": [
+     "Highly Cited Researcher",
+     "Korea Science Award",
+     "Top Scientist and Technologist Award of Korea"
+    ],
+    "top_scientists_pagerank": [
+     "Tehshik Yoon",
+     "Vy Maria Dong",
+     "David A. Evans",
+     "Sukbok Chang",
+     "David MacMillan",
+     "Marisa Kozlowski",
+     "Margaret Faul",
+     "Erick M. Carreira"
+    ],
+    "k_core_max": 3,
+    "nucleus": [
+     "Vy Maria Dong",
+     "David MacMillan",
+     "Larry E. Overman"
+    ]
+   },
+   {
+    "id": 17,
+    "size": 23,
+    "labels": {
+     "Institution": 3,
+     "Award": 5,
+     "Scientist": 14,
+     "Field": 1
+    },
+    "top_fields": [
+     "Gravitational wave"
+    ],
+    "top_institutions": [
+     "Cardiff University",
+     "Strangeways Research Laboratory",
+     "Max Planck Institute for Gravitational Physics"
+    ],
+    "top_awards": [
+     "Grand Prix Charles-Leopold Mayer",
+     "President's Medal (Royal Academy of Engineering)",
+     "Honorary doctorates at several universities"
+    ],
+    "top_scientists_pagerank": [
+     "Honor Fell",
+     "John Friedman",
+     "Margaret Hurlstone Hardy Fallding",
+     "Christian David Ott",
+     "Miguel Alcubierre",
+     "E. Yvonne Jones",
+     "Gregory Petsko",
+     "Ian Wilson (biologist)"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Honor Fell",
+     "John Friedman",
+     "Margaret Hurlstone Hardy Fallding",
+     "Christian David Ott",
+     "Miguel Alcubierre",
+     "E. Yvonne Jones",
+     "Ian Wilson (biologist)",
+     "Louise Johnson"
+    ]
+   },
+   {
+    "id": 18,
+    "size": 23,
+    "labels": {
+     "Scientist": 16,
+     "Institution": 2,
+     "Award": 5
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Imperial Chemical Industries",
+     "Wool Industries Research Association"
+    ],
+    "top_awards": [
+     "George Box Medal",
+     "Shewhart Medal",
+     "COPSS Distinguished Achievement Award and Lectureship"
+    ],
+    "top_scientists_pagerank": [
+     "George E. P. Box",
+     "David Cox (statistician)",
+     "George C. Tiao",
+     "Greta M. Ljung",
+     "John F. MacGregor",
+     "David Hinkley",
+     "Nancy Reid",
+     "Henry Wynn"
+    ],
+    "k_core_max": 2,
+    "nucleus": [
+     "George E. P. Box",
+     "David Cox (statistician)"
+    ]
+   },
+   {
+    "id": 19,
+    "size": 23,
+    "labels": {
+     "Award": 17,
+     "Field": 3,
+     "Scientist": 3
+    },
+    "top_fields": [
+     "Genome Engineering",
+     "Biological Physics",
+     "Molecular Biophysics"
+    ],
+    "top_institutions": [],
+    "top_awards": [
+     "Alfred P. Sloan Research Fellowship",
+     "NIH Director’s New Innovator Award",
+     "Beckman Young Investigator Award"
+    ],
+    "top_scientists_pagerank": [
+     "Lara Mahal",
+     "Samuel H. Sternberg",
+     "José Onuchic"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Lara Mahal",
+     "Samuel H. Sternberg",
+     "José Onuchic"
+    ]
+   },
+   {
+    "id": 20,
+    "size": 21,
+    "labels": {
+     "Award": 1,
+     "Field": 5,
+     "Scientist": 13,
+     "Institution": 2
+    },
+    "top_fields": [
+     "Fluid dynamics",
+     "Fluid mechanics",
+     "Atomic structure"
+    ],
+    "top_institutions": [
+     "Westminster School",
+     "Admiralty Experiment Works"
+    ],
+    "top_awards": [
+     "Timoshenko Medal"
+    ],
+    "top_scientists_pagerank": [
+     "G. I. Taylor",
+     "Rosa M. Morris",
+     "George Batchelor",
+     "Francis Bretherton",
+     "Stewart Turner",
+     "Philip Saffman",
+     "Adrian Gill (meteorologist)",
+     "Tim Pedley"
+    ],
+    "k_core_max": 2,
+    "nucleus": [
+     "G. I. Taylor",
+     "George Batchelor"
+    ]
+   },
+   {
+    "id": 21,
+    "size": 20,
+    "labels": {
+     "Scientist": 13,
+     "Field": 1,
+     "Institution": 4,
+     "Award": 2
+    },
+    "top_fields": [
+     "Combustion"
+    ],
+    "top_institutions": [
+     "Université libre de Bruxelles",
+     "University of Liège",
+     "Aix-Marseille University"
+    ],
+    "top_awards": [
+     "Francqui Prize",
+     "Ludwik Fleck Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Isabelle Stengers",
+     "Théophile De Donder",
+     "Léon Rosenfeld",
+     "Léon Van Hove",
+     "Ilya Prigogine",
+     "Théophile Lepage",
+     "Guy Joulin",
+     "Adi Bulsara"
+    ],
+    "k_core_max": 2,
+    "nucleus": [
+     "Isabelle Stengers",
+     "Théophile De Donder",
+     "Ilya Prigogine",
+     "Harry Friedmann"
+    ]
+   },
+   {
+    "id": 22,
+    "size": 18,
+    "labels": {
+     "Institution": 8,
+     "Award": 6,
+     "Scientist": 4
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "KTH Royal Institute of Technology",
+     "Carleton University",
+     "University of Genoa"
+    ],
+    "top_awards": [
+     "Körber European Science Prize",
+     "Friendship Award (China)",
+     "German Future Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Ilaria Testa",
+     "Peter Grünberg",
+     "Stefan Hell",
+     "Alberto Diaspro"
+    ],
+    "k_core_max": 2,
+    "nucleus": [
+     "Ilaria Testa",
+     "Stefan Hell"
+    ]
+   },
+   {
+    "id": 23,
+    "size": 17,
+    "labels": {
+     "Institution": 5,
+     "Award": 3,
+     "Scientist": 7,
+     "Field": 2
+    },
+    "top_fields": [
+     "Atmospheric physics",
+     "Atmospheric chemistry"
+    ],
+    "top_institutions": [
+     "Max Planck Institute for Chemistry",
+     "National Oceanic and Atmospheric Administration",
+     "Wageningen University & Research"
+    ],
+    "top_awards": [
+     "Carl-Gustaf Rossby Research Medal",
+     "Vilhelm Bjerknes Medal",
+     "Carl Friedrich von Weizsäcker Prize"
+    ],
+    "top_scientists_pagerank": [
+     "Kerry Emanuel",
+     "Joseph Smagorinsky",
+     "Ragnar Fjørtoft",
+     "Jule Gregory Charney",
+     "Johannes Lelieveld",
+     "George W. Platzman",
+     "James Hansen"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Kerry Emanuel",
+     "Joseph Smagorinsky",
+     "Jule Gregory Charney",
+     "Ragnar Fjørtoft",
+     "Johannes Lelieveld",
+     "George W. Platzman",
+     "James Hansen"
+    ]
+   },
+   {
+    "id": 24,
+    "size": 15,
+    "labels": {
+     "Award": 5,
+     "Scientist": 3,
+     "Institution": 5,
+     "Field": 2
+    },
+    "top_fields": [
+     "Water resources",
+     "Global sustainability"
+    ],
+    "top_institutions": [
+     "Stockholm Resilience Centre",
+     "Dominion Astrophysical Observatory",
+     "Swedish University of Agricultural Sciences"
+    ],
+    "top_awards": [
+     "International Cosmos Prize",
+     "Fellow of the Royal Society of Canada",
+     "Honorary Degree"
+    ],
+    "top_scientists_pagerank": [
+     "Ed van den Heuvel",
+     "Anne Barbara Underhill",
+     "Johan Rockström"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Ed van den Heuvel",
+     "Anne Barbara Underhill",
+     "Johan Rockström"
+    ]
+   },
+   {
+    "id": 25,
+    "size": 15,
+    "labels": {
+     "Scientist": 13,
+     "Institution": 2
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Yale College",
+     "École spéciale militaire de Saint-Cyr"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Giovanni Plana",
+     "Siméon Denis Poisson",
+     "Josiah Willard Gibbs",
+     "Peter Gustav Lejeune Dirichlet",
+     "Joseph Liouville",
+     "Michel Chasles",
+     "Nicolas Léonard Sadi Carnot",
+     "Jean Gaston Darboux"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Giovanni Plana",
+     "Siméon Denis Poisson",
+     "Josiah Willard Gibbs",
+     "Peter Gustav Lejeune Dirichlet",
+     "Joseph Liouville",
+     "Michel Chasles",
+     "Nicolas Léonard Sadi Carnot",
+     "Jean Gaston Darboux"
+    ]
+   },
+   {
+    "id": 26,
+    "size": 14,
+    "labels": {
+     "Scientist": 8,
+     "Institution": 4,
+     "Field": 2
+    },
+    "top_fields": [
+     "Bio-therapeutics",
+     "Organic synthesis"
+    ],
+    "top_institutions": [
+     "Pennsylvania State University",
+     "Willamette University",
+     "Eckerd College"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Fred Tappert",
+     "Carlos F. Barbas III",
+     "SonBinh Nguyen",
+     "Nathan C. Gianneschi",
+     "Nathan Lewis (chemist)",
+     "Harry Stone Mosher",
+     "Edward A. Frieman",
+     "Stephen J. Benkovic"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Fred Tappert",
+     "Carlos F. Barbas III",
+     "SonBinh Nguyen",
+     "Nathan C. Gianneschi",
+     "Nathan Lewis (chemist)",
+     "Stephen J. Benkovic",
+     "Harry Stone Mosher",
+     "Edward A. Frieman"
+    ]
+   },
+   {
+    "id": 27,
+    "size": 11,
+    "labels": {
+     "Scientist": 11
+    },
+    "top_fields": [],
+    "top_institutions": [],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "John Joannopoulos",
+     "Michelle Povinelli",
+     "Maria Chan",
+     "Eugene J. Mele",
+     "Andrew M. Rappe",
+     "David Vanderbilt",
+     "Shanhui Fan",
+     "Efthimios Kaxiras"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "John Joannopoulos",
+     "Michelle Povinelli",
+     "Maria Chan",
+     "Eugene J. Mele",
+     "Andrew M. Rappe",
+     "David Vanderbilt",
+     "Shanhui Fan",
+     "Efthimios Kaxiras"
+    ]
+   },
+   {
+    "id": 28,
+    "size": 9,
+    "labels": {
+     "Scientist": 8,
+     "Institution": 1
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Darwin College, Cambridge"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Karl Popper",
+     "Donald A. Gillies",
+     "Alan Musgrave",
+     "John W. N. Watkins",
+     "A. I. Sabra",
+     "Moritz Schlick",
+     "Karl Bühler",
+     "Karl-Otto Apel"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Karl Popper",
+     "Donald A. Gillies",
+     "Alan Musgrave",
+     "John W. N. Watkins",
+     "A. I. Sabra",
+     "Moritz Schlick",
+     "Karl Bühler",
+     "Karl-Otto Apel"
+    ]
+   },
+   {
+    "id": 29,
+    "size": 7,
+    "labels": {
+     "Scientist": 7
+    },
+    "top_fields": [],
+    "top_institutions": [],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Shuming Nie",
+     "William R. Simpson",
+     "Hongkun Park",
+     "Stacey Bent",
+     "Andrew Orr-Ewing",
+     "Renato Zenobi",
+     "Richard Zare"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Andrew Orr-Ewing",
+     "William R. Simpson",
+     "Shuming Nie",
+     "Hongkun Park",
+     "Stacey Bent",
+     "Renato Zenobi",
+     "Richard Zare"
+    ]
+   },
+   {
+    "id": 30,
+    "size": 7,
+    "labels": {
+     "Scientist": 5,
+     "Institution": 1,
+     "Award": 1
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "J. Craig Venter Institute"
+    ],
+    "top_awards": [
+     "Benjamin Franklin Award (Bioinformatics)"
+    ],
+    "top_scientists_pagerank": [
+     "Steven Salzberg",
+     "Olga Troyanskaya",
+     "Ben Langmead",
+     "Cole Trapnell",
+     "William Aaron Woods"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Steven Salzberg",
+     "Ben Langmead",
+     "Cole Trapnell",
+     "Olga Troyanskaya",
+     "William Aaron Woods"
+    ]
+   },
+   {
+    "id": 31,
+    "size": 7,
+    "labels": {
+     "Scientist": 3,
+     "Institution": 4
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Jesus College, Cambridge",
+     "Royal Observatory, Greenwich",
+     "Royal Observatory, Cape of Good Hope"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Samar Mubarakmand",
+     "Denys Wilkinson",
+     "Harold Spencer Jones"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Samar Mubarakmand",
+     "Denys Wilkinson",
+     "Harold Spencer Jones"
+    ]
+   },
+   {
+    "id": 32,
+    "size": 7,
+    "labels": {
+     "Institution": 4,
+     "Scientist": 3
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Georgia Tech",
+     "Clarkson University",
+     "Clark Atlanta University"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Michael Duryea Williams",
+     "Gary Schuster",
+     "William E. Spicer"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Michael Duryea Williams",
+     "Gary Schuster",
+     "William E. Spicer"
+    ]
+   },
+   {
+    "id": 33,
+    "size": 6,
+    "labels": {
+     "Scientist": 4,
+     "Institution": 2
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Lick Observatory",
+     "United States Department of State"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Nicholas B. Suntzeff",
+     "Mario Hamuy",
+     "Mark M. Phillips",
+     "Robert Kraft (astronomer)"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Nicholas B. Suntzeff",
+     "Mario Hamuy",
+     "Mark M. Phillips",
+     "Robert Kraft (astronomer)"
+    ]
+   },
+   {
+    "id": 34,
+    "size": 6,
+    "labels": {
+     "Field": 1,
+     "Scientist": 5
+    },
+    "top_fields": [
+     "Condensed matter"
+    ],
+    "top_institutions": [],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Robert J. Schoelkopf",
+     "Andreas Wallraff",
+     "Jerry M. Chow",
+     "Jay Gambetta",
+     "Thomas G. Phillips"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Robert J. Schoelkopf",
+     "Jay Gambetta",
+     "Andreas Wallraff",
+     "Jerry M. Chow",
+     "Thomas G. Phillips"
+    ]
+   },
+   {
+    "id": 35,
+    "size": 5,
+    "labels": {
+     "Award": 3,
+     "Scientist": 1,
+     "Field": 1
+    },
+    "top_fields": [
+     "Behavior analysis"
+    ],
+    "top_institutions": [],
+    "top_awards": [
+     "ABAI Distinguished Service to Behavior Analysis Award",
+     "Victor G. Laties Award for Lifetime Service",
+     "SEAB Don F. Hake Award for Translational Research"
+    ],
+    "top_scientists_pagerank": [
+     "A. Charles Catania"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "A. Charles Catania"
+    ]
+   },
+   {
+    "id": 36,
+    "size": 5,
+    "labels": {
+     "Scientist": 5
+    },
+    "top_fields": [],
+    "top_institutions": [],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "Keith Brueckner",
+     "H. Pierre Noyes",
+     "Peter A. Wolff",
+     "Donald H. Weingarten",
+     "Robert Serber"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Keith Brueckner",
+     "Donald H. Weingarten",
+     "H. Pierre Noyes",
+     "Peter A. Wolff",
+     "Robert Serber"
+    ]
+   },
+   {
+    "id": 37,
+    "size": 4,
+    "labels": {
+     "Award": 3,
+     "Scientist": 1
+    },
+    "top_fields": [],
+    "top_institutions": [],
+    "top_awards": [
+     "Blood transfusion",
+     "Rh blood group system",
+     "Philip Levine (physician)"
+    ],
+    "top_scientists_pagerank": [
+     "Alexander S. Wiener"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Alexander S. Wiener"
+    ]
+   },
+   {
+    "id": 38,
+    "size": 4,
+    "labels": {
+     "Scientist": 1,
+     "Institution": 3
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Lenox Hill Hospital",
+     "North Shore University Hospital",
+     "Northwell Health"
+    ],
+    "top_awards": [],
+    "top_scientists_pagerank": [
+     "David Langer (neurosurgeon)"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "David Langer (neurosurgeon)"
+    ]
+   },
+   {
+    "id": 39,
+    "size": 4,
+    "labels": {
+     "Award": 2,
+     "Scientist": 1,
+     "Institution": 1
+    },
+    "top_fields": [],
+    "top_institutions": [
+     "Karolinska University Hospital"
+    ],
+    "top_awards": [
+     "Ebba-Christina Hagberg Prize",
+     "Daiwa Adrian Prize Award"
+    ],
+    "top_scientists_pagerank": [
+     "Hugo Zeberg"
+    ],
+    "k_core_max": 1,
+    "nucleus": [
+     "Hugo Zeberg"
+    ]
+   }
+  ]
+ },
+ "k_core": {
+  "k_max": 8,
+  "main_core_size": 465,
+  "main_core_by_label": {
+   "Award": 82,
+   "Scientist": 323,
+   "Field": 13,
+   "Institution": 47
+  },
+  "main_core_scientists": [
+   "Milton Friedman",
+   "Friedrich Hirzebruch",
+   "Niels Bohr",
+   "Thomas Sowell",
+   "Charles H. Bennett (physicist)",
+   "Hassler Whitney",
+   "Robert G. Roeder",
+   "Robert S. Langer",
+   "W. D. Hamilton",
+   "Rudolf Peierls",
+   "Shiing-Shen Chern",
+   "Edward Boyden",
+   "Donald Knuth",
+   "Pierre Deligne",
+   "Terence Tao",
+   "André Weil",
+   "Felix Klein",
+   "Albert Einstein",
+   "James Spudich",
+   "Elliott H. Lieb",
+   "Max Born",
+   "Andrew Yao",
+   "Andrew Wiles",
+   "Julius Plücker",
+   "Simon Donaldson",
+   "Horace Lamb",
+   "John G. Thompson",
+   "James Lighthill",
+   "Matthew Meselson",
+   "David R. Liu",
+   "Benoit Mandelbrot",
+   "Bruno Rossi",
+   "Claude Shannon",
+   "Gregory Breit",
+   "Isadore Singer",
+   "James Joseph Sylvester",
+   "John D. Roberts",
+   "John Milnor",
+   "John Randall (physicist)",
+   "John Tate (mathematician)"
+  ],
+  "main_core_other": [
+   "Physics",
+   "Harvard University",
+   "Massachusetts Institute of Technology",
+   "Royal Medal",
+   "University of Chicago",
+   "Chemistry",
+   "University of California, Berkeley",
+   "Copley Medal",
+   "University of Cambridge",
+   "Columbia University",
+   "California Institute of Technology",
+   "Stanford University",
+   "Fellow of the Royal Society",
+   "Princeton University",
+   "Nobel Prize in Physiology or Medicine",
+   "Mathematics",
+   "Nobel Prize in Physics",
+   "Nobel Prize in Chemistry",
+   "Yale University",
+   "Biochemistry",
+   "University of Oxford",
+   "Humboldt University of Berlin",
+   "Cornell University",
+   "University College London",
+   "National Medal of Science",
+   "University of Göttingen",
+   "University of Michigan",
+   "University of Edinburgh",
+   "Astronomy",
+   "Theoretical physics"
+  ],
+  "shell_sizes": {
+   "1": 4362,
+   "2": 885,
+   "3": 614,
+   "4": 657,
+   "5": 708,
+   "6": 596,
+   "7": 984,
+   "8": 465
+  },
+  "rich_club_k20": 0.0244
+ }
+}

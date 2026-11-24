@@ -1,0 +1,50 @@
+{
+ "rules": {
+  "ALL": {
+   "hits1": 0.681,
+   "recall10": 0.804,
+   "f1": 0.689
+  },
+  "1hop-advisor": {
+   "hits1": 0.833,
+   "recall10": 1.0,
+   "f1": 0.768
+  },
+  "style:chuẩn": {
+   "hits1": 1.0,
+   "recall10": 1.0,
+   "f1": 1.0
+  },
+  "style:diễn đạt lại": {
+   "hits1": 0.361,
+   "recall10": 0.608,
+   "f1": 0.378
+  },
+  "1hop-award": {
+   "hits1": 0.5,
+   "recall10": 0.906,
+   "f1": 0.774
+  },
+  "2hop-advisor-of-advisor": {
+   "hits1": 1.0,
+   "recall10": 1.0,
+   "f1": 1.0
+  },
+  "2hop-students-award": {
+   "hits1": 0.75,
+   "recall10": 0.917,
+   "f1": 0.59
+  },
+  "2hop-awardees-studied": {
+   "hits1": 0.5,
+   "recall10": 0.5,
+   "f1": 0.5
+  },
+  "3hop-advisor-chain": {
+   "hits1": 0.5,
+   "recall10": 0.5,
+   "f1": 0.5
+  },
+  "seconds_per_question": 0.0
+ }
+}
