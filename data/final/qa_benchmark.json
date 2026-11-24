@@ -1,0 +1,1646 @@
+[
+ {
+  "id": 0,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Geoffrey W. Hoffmann?",
+  "gold": [
+   "Manfred Eigen"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 1,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Geoffrey W. Hoffmann trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Manfred Eigen"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 2,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Glenn T. Seaborg?",
+  "gold": [
+   "George Ernest Gibson",
+   "Gilbert N. Lewis"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 3,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Glenn T. Seaborg trên con đường nghiên cứu là ai?",
+  "gold": [
+   "George Ernest Gibson",
+   "Gilbert N. Lewis"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 4,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Loren Williams?",
+  "gold": [
+   "Martin Gouterman"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 5,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Loren Williams trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Martin Gouterman"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 6,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Melissa Franklin?",
+  "gold": [
+   "Gary Feldman",
+   "Martin Lewis Perl"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 7,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Melissa Franklin trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Gary Feldman",
+   "Martin Lewis Perl"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 8,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Bruno Rossi?",
+  "gold": [
+   "Quirino Majorana"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 9,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Bruno Rossi trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Quirino Majorana"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 10,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Tali Kaufman?",
+  "gold": [
+   "Noga Alon"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 11,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Tali Kaufman trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Noga Alon"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 12,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Nicola Cabibbo?",
+  "gold": [
+   "Bruno Touschek"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 13,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Nicola Cabibbo trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Bruno Touschek"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 14,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Ernst Abbe?",
+  "gold": [
+   "Wilhelm Eduard Weber"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 15,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Ernst Abbe trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Wilhelm Eduard Weber"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 16,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Sarah Veatch?",
+  "gold": [
+   "Rainer Weiss",
+   "Sarah L. Keller"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 17,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Sarah Veatch trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Rainer Weiss",
+   "Sarah L. Keller"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 18,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Wilhelm Heinrich Waagen?",
+  "gold": [
+   "Eduard Suess"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 19,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Wilhelm Heinrich Waagen trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Eduard Suess"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 20,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Yulii Khariton?",
+  "gold": [
+   "Abram Ioffe",
+   "Ernest Rutherford",
+   "Nikolay Semyonov"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 21,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Yulii Khariton trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Abram Ioffe",
+   "Ernest Rutherford",
+   "Nikolay Semyonov"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 22,
+  "type": "1hop-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của Heinrich Friedrich Weber?",
+  "gold": [
+   "Ernst Abbe",
+   "Hermann von Helmholtz"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 23,
+  "type": "1hop-advisor",
+  "style": "diễn đạt lại",
+  "question": "Người đã dìu dắt Heinrich Friedrich Weber trên con đường nghiên cứu là ai?",
+  "gold": [
+   "Ernst Abbe",
+   "Hermann von Helmholtz"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 24,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "William Benjamin Carpenter đã nhận những giải thưởng nào?",
+  "gold": [
+   "Lyell Medal",
+   "Royal Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 25,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà William Benjamin Carpenter giành được là gì?",
+  "gold": [
+   "Lyell Medal",
+   "Royal Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 26,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Mikio Sato đã nhận những giải thưởng nào?",
+  "gold": [
+   "Asahi Prize",
+   "Japan Academy Prize (academics)",
+   "Person of Cultural Merit",
+   "Rolf Schock Prizes",
+   "Wolf Prize in Mathematics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 27,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Mikio Sato giành được là gì?",
+  "gold": [
+   "Asahi Prize",
+   "Japan Academy Prize (academics)",
+   "Person of Cultural Merit",
+   "Rolf Schock Prizes",
+   "Wolf Prize in Mathematics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 28,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "John William Strutt, 3rd Baron Rayleigh đã nhận những giải thưởng nào?",
+  "gold": [
+   "Albert Medal (Royal Society of Arts)",
+   "Copley Medal",
+   "De Morgan Medal",
+   "Elliott Cresson Medal",
+   "Faraday Lectureship Prize",
+   "Matteucci Medal",
+   "Nobel Prize in Physics",
+   "Royal Medal",
+   "Rumford Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 29,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà John William Strutt, 3rd Baron Rayleigh giành được là gì?",
+  "gold": [
+   "Albert Medal (Royal Society of Arts)",
+   "Copley Medal",
+   "De Morgan Medal",
+   "Elliott Cresson Medal",
+   "Faraday Lectureship Prize",
+   "Matteucci Medal",
+   "Nobel Prize in Physics",
+   "Royal Medal",
+   "Rumford Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 30,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Christopher Kelk Ingold đã nhận những giải thưởng nào?",
+  "gold": [
+   "Davy Medal",
+   "Faraday Lectureship Prize",
+   "Royal Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 31,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Christopher Kelk Ingold giành được là gì?",
+  "gold": [
+   "Davy Medal",
+   "Faraday Lectureship Prize",
+   "Royal Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 32,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "John Archibald Wheeler đã nhận những giải thưởng nào?",
+  "gold": [
+   "Albert Einstein Award",
+   "Albert Einstein Medal",
+   "Einstein Prize (APS)",
+   "Enrico Fermi Award",
+   "Franklin Medal",
+   "J. Robert Oppenheimer Memorial Prize",
+   "Matteucci Medal",
+   "National Medal of Science",
+   "Oersted Medal",
+   "Wolf Prize in Physics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 33,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà John Archibald Wheeler giành được là gì?",
+  "gold": [
+   "Albert Einstein Award",
+   "Albert Einstein Medal",
+   "Einstein Prize (APS)",
+   "Enrico Fermi Award",
+   "Franklin Medal",
+   "J. Robert Oppenheimer Memorial Prize",
+   "Matteucci Medal",
+   "National Medal of Science",
+   "Oersted Medal",
+   "Wolf Prize in Physics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 34,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Jean Leray đã nhận những giải thưởng nào?",
+  "gold": [
+   "Feltrinelli Prize",
+   "John von Neumann Prize",
+   "Lomonosov Gold Medal",
+   "Prix Francoeur",
+   "Wolf Prize in Mathematics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 35,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Jean Leray giành được là gì?",
+  "gold": [
+   "Feltrinelli Prize",
+   "John von Neumann Prize",
+   "Lomonosov Gold Medal",
+   "Prix Francoeur",
+   "Wolf Prize in Mathematics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 36,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Clinton Davisson đã nhận những giải thưởng nào?",
+  "gold": [
+   "Comstock Prize in Physics",
+   "Elliott Cresson Medal",
+   "Hughes Medal",
+   "Nobel Prize in Physics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 37,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Clinton Davisson giành được là gì?",
+  "gold": [
+   "Comstock Prize in Physics",
+   "Elliott Cresson Medal",
+   "Hughes Medal",
+   "Nobel Prize in Physics"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 38,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Francis Galton đã nhận những giải thưởng nào?",
+  "gold": [
+   "Copley Medal",
+   "Darwin–Wallace Medal",
+   "Huxley Memorial Medal and Lecture",
+   "Knight Bachelor",
+   "List of recipients of the Founder's Medal",
+   "Royal Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 39,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Francis Galton giành được là gì?",
+  "gold": [
+   "Copley Medal",
+   "Darwin–Wallace Medal",
+   "Huxley Memorial Medal and Lecture",
+   "Knight Bachelor",
+   "List of recipients of the Founder's Medal",
+   "Royal Medal"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 40,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Josiah Willard Gibbs đã nhận những giải thưởng nào?",
+  "gold": [
+   "Copley Medal",
+   "Fellow of the Royal Society",
+   "Rumford Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 41,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Josiah Willard Gibbs giành được là gì?",
+  "gold": [
+   "Copley Medal",
+   "Fellow of the Royal Society",
+   "Rumford Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 42,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Louis Néel đã nhận những giải thưởng nào?",
+  "gold": [
+   "CNRS Gold Medal",
+   "Fellow of the Royal Society",
+   "Fernand Holweck Medal and Prize",
+   "Legion of Honour",
+   "Nobel Prize in Physics",
+   "Prix Félix-Robin",
+   "Three Physicists Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 43,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Louis Néel giành được là gì?",
+  "gold": [
+   "CNRS Gold Medal",
+   "Fellow of the Royal Society",
+   "Fernand Holweck Medal and Prize",
+   "Legion of Honour",
+   "Nobel Prize in Physics",
+   "Prix Félix-Robin",
+   "Three Physicists Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 44,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Alfred Fowler đã nhận những giải thưởng nào?",
+  "gold": [
+   "Bruce Medal",
+   "Gold Medal of the Royal Astronomical Society",
+   "Henry Draper Medal",
+   "Royal Medal",
+   "Valz Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 45,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Alfred Fowler giành được là gì?",
+  "gold": [
+   "Bruce Medal",
+   "Gold Medal of the Royal Astronomical Society",
+   "Henry Draper Medal",
+   "Royal Medal",
+   "Valz Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 46,
+  "type": "1hop-award",
+  "style": "chuẩn",
+  "question": "Enrico Fermi đã nhận những giải thưởng nào?",
+  "gold": [
+   "Barnard Medal for Meritorious Service to Science",
+   "Franklin Medal",
+   "Hughes Medal",
+   "Matteucci Medal",
+   "Max Planck Medal",
+   "Medal for Merit",
+   "Nobel Prize in Physics",
+   "Rumford Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 47,
+  "type": "1hop-award",
+  "style": "diễn đạt lại",
+  "question": "Những vinh danh mà Enrico Fermi giành được là gì?",
+  "gold": [
+   "Barnard Medal for Meritorious Service to Science",
+   "Franklin Medal",
+   "Hughes Medal",
+   "Matteucci Medal",
+   "Max Planck Medal",
+   "Medal for Merit",
+   "Nobel Prize in Physics",
+   "Rumford Prize"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 48,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Robert L. Forward?",
+  "gold": [
+   "Keith J. Laidler"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 49,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Robert L. Forward là ai?",
+  "gold": [
+   "Keith J. Laidler"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 50,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Fritz Zwicky?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "Peter Debye"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 51,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Fritz Zwicky là ai?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "Peter Debye"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 52,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Donald Voet?",
+  "gold": [
+   "Linus Pauling"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 53,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Donald Voet là ai?",
+  "gold": [
+   "Linus Pauling"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 54,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Albert Overhauser?",
+  "gold": [
+   "Gregory Breit"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 55,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Albert Overhauser là ai?",
+  "gold": [
+   "Gregory Breit"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 56,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Yuval Flicker?",
+  "gold": [
+   "Harold Davenport"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 57,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Yuval Flicker là ai?",
+  "gold": [
+   "Harold Davenport"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 58,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Dian Fossey?",
+  "gold": [
+   "David Lack"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 59,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Dian Fossey là ai?",
+  "gold": [
+   "David Lack"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 60,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Emil von Behring?",
+  "gold": [
+   "Friedrich Gustav Jakob Henle",
+   "Karl Ewald Hasse",
+   "Rudolf Virchow"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 61,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Emil von Behring là ai?",
+  "gold": [
+   "Friedrich Gustav Jakob Henle",
+   "Karl Ewald Hasse",
+   "Rudolf Virchow"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 62,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Mark B. Gerstein?",
+  "gold": [
+   "Frederic M. Richards",
+   "Michael Levitt (biophysicist)"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 63,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Mark B. Gerstein là ai?",
+  "gold": [
+   "Frederic M. Richards",
+   "Michael Levitt (biophysicist)"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 64,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của David MacMillan?",
+  "gold": [
+   "Robert E. Ireland"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 65,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo David MacMillan là ai?",
+  "gold": [
+   "Robert E. Ireland"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 66,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Felix Klein?",
+  "gold": [
+   "Christian Ludwig Gerling"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 67,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Felix Klein là ai?",
+  "gold": [
+   "Christian Ludwig Gerling"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 68,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Natalie Strynadka?",
+  "gold": [
+   "Dorothy Hodgkin"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 69,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Natalie Strynadka là ai?",
+  "gold": [
+   "Dorothy Hodgkin"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 70,
+  "type": "2hop-advisor-of-advisor",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của Maya Rossin-Slater?",
+  "gold": [
+   "Angus Deaton",
+   "David Card",
+   "Orley Ashenfelter"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 71,
+  "type": "2hop-advisor-of-advisor",
+  "style": "diễn đạt lại",
+  "question": "Ông/bà thầy của người thầy đã đào tạo Maya Rossin-Slater là ai?",
+  "gold": [
+   "Angus Deaton",
+   "David Card",
+   "Orley Ashenfelter"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 72,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Jerrold R. Zacharias đã nhận Shaw Prize?",
+  "gold": [
+   "Rainer Weiss"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 73,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Jerrold R. Zacharias từng đào tạo, ai được trao Shaw Prize?",
+  "gold": [
+   "Rainer Weiss"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 74,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Enrico Fermi đã nhận Rumford Prize?",
+  "gold": [
+   "Yang Chen-Ning"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 75,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Enrico Fermi từng đào tạo, ai được trao Rumford Prize?",
+  "gold": [
+   "Yang Chen-Ning"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 76,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Nicholas Kemmer đã nhận Copley Medal?",
+  "gold": [
+   "Abdus Salam"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 77,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Nicholas Kemmer từng đào tạo, ai được trao Copley Medal?",
+  "gold": [
+   "Abdus Salam"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 78,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Nikolay Semyonov đã nhận Dirac Medal (ICTP)?",
+  "gold": [
+   "Yakov Zeldovich"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 79,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Nikolay Semyonov từng đào tạo, ai được trao Dirac Medal (ICTP)?",
+  "gold": [
+   "Yakov Zeldovich"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 80,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Wendell Mitchell Latimer đã nhận ACS Award in Pure Chemistry?",
+  "gold": [
+   "Kenneth Pitzer"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 81,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Wendell Mitchell Latimer từng đào tạo, ai được trao ACS Award in Pure Chemistry?",
+  "gold": [
+   "Kenneth Pitzer"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 82,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Max Born đã nhận Wolf Prize?",
+  "gold": [
+   "Victor Weisskopf"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 83,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Max Born từng đào tạo, ai được trao Wolf Prize?",
+  "gold": [
+   "Victor Weisskopf"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 84,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của James Clerk Maxwell đã nhận De Morgan Medal?",
+  "gold": [
+   "Horace Lamb"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 85,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người James Clerk Maxwell từng đào tạo, ai được trao De Morgan Medal?",
+  "gold": [
+   "Horace Lamb"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 86,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Max Planck đã nhận Copley Medal?",
+  "gold": [
+   "George Ellery Hale"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 87,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Max Planck từng đào tạo, ai được trao Copley Medal?",
+  "gold": [
+   "George Ellery Hale"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 88,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Hubert A. Newton đã nhận Fellow of the Royal Society?",
+  "gold": [
+   "Josiah Willard Gibbs"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 89,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Hubert A. Newton từng đào tạo, ai được trao Fellow of the Royal Society?",
+  "gold": [
+   "Josiah Willard Gibbs"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 90,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của George C. Pimentel đã nhận Presidential Medal of Freedom?",
+  "gold": [
+   "Mario Molina"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 91,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người George C. Pimentel từng đào tạo, ai được trao Presidential Medal of Freedom?",
+  "gold": [
+   "Mario Molina"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 92,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Andrew Forsyth đã nhận Copley Medal?",
+  "gold": [
+   "E. T. Whittaker"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 93,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Andrew Forsyth từng đào tạo, ai được trao Copley Medal?",
+  "gold": [
+   "E. T. Whittaker"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 94,
+  "type": "2hop-students-award",
+  "style": "chuẩn",
+  "question": "Học trò nào của Andrey Kolmogorov đã nhận Fellow of the Royal Society?",
+  "gold": [
+   "Israel Gelfand"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 95,
+  "type": "2hop-students-award",
+  "style": "diễn đạt lại",
+  "question": "Trong số những người Andrey Kolmogorov từng đào tạo, ai được trao Fellow of the Royal Society?",
+  "gold": [
+   "Israel Gelfand"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 96,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Cameron Prize for Therapeutics of the University of Edinburgh từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 97,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Cameron Prize for Therapeutics of the University of Edinburgh chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 98,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Oswald Veblen Prize in Geometry từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Princeton University",
+   "Saint Petersburg State University",
+   "University of California, Berkeley"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 99,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Oswald Veblen Prize in Geometry chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Princeton University",
+   "Saint Petersburg State University",
+   "University of California, Berkeley"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 100,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Order of the British Empire từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Humboldt University of Berlin",
+   "Leipzig University",
+   "University of Cambridge",
+   "University of Manchester",
+   "University of Oxford"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 101,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Order of the British Empire chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Humboldt University of Berlin",
+   "Leipzig University",
+   "University of Cambridge",
+   "University of Manchester",
+   "University of Oxford"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 102,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Queen Elizabeth Prize for Engineering từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Cornell University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 103,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Queen Elizabeth Prize for Engineering chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Cornell University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 104,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Eddington Medal từng học ở đâu nhiều nhất?",
+  "gold": [
+   "California Institute of Technology"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 105,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Eddington Medal chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "California Institute of Technology"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 106,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận John Scott Medal từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 107,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của John Scott Medal chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 108,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Bôcher Memorial Prize từng học ở đâu nhiều nhất?",
+  "gold": [
+   "University of Chicago"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 109,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Bôcher Memorial Prize chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "University of Chicago"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 110,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Oersted Medal từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Columbia University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 111,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Oersted Medal chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Columbia University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 112,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Tetrahedron Prize từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 113,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Tetrahedron Prize chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 114,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Balzan Prize từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Trinity College, Cambridge",
+   "École normale supérieure (Paris)"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 115,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Balzan Prize chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Trinity College, Cambridge",
+   "École normale supérieure (Paris)"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 116,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận Order of Culture từng học ở đâu nhiều nhất?",
+  "gold": [
+   "University of Tokyo"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 117,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của Order of Culture chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "University of Tokyo"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 118,
+  "type": "2hop-awardees-studied",
+  "style": "chuẩn",
+  "question": "Những người nhận BBVA Foundation Frontiers of Knowledge Award từng học ở đâu nhiều nhất?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 119,
+  "type": "2hop-awardees-studied",
+  "style": "diễn đạt lại",
+  "question": "Các chủ nhân của BBVA Foundation Frontiers of Knowledge Award chủ yếu được đào tạo tại trường nào?",
+  "gold": [
+   "Harvard University"
+  ],
+  "kind": "top"
+ },
+ {
+  "id": 120,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Egil Hylleraas?",
+  "gold": [
+   "Hermann von Helmholtz"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 121,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Egil Hylleraas thì gặp ai?",
+  "gold": [
+   "Hermann von Helmholtz"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 122,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của John D. Baldeschwieler?",
+  "gold": [
+   "Wendell Mitchell Latimer"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 123,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ John D. Baldeschwieler thì gặp ai?",
+  "gold": [
+   "Wendell Mitchell Latimer"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 124,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Marie-Antoinette Tonnelat?",
+  "gold": [
+   "Gabriel Lippmann",
+   "Jules Violle",
+   "Marcel Brillouin",
+   "Pierre Curie"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 125,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Marie-Antoinette Tonnelat thì gặp ai?",
+  "gold": [
+   "Gabriel Lippmann",
+   "Jules Violle",
+   "Marcel Brillouin",
+   "Pierre Curie"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 126,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Thomas A. Steitz?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "J. D. Bernal",
+   "Linus Pauling",
+   "Niels Bohr",
+   "Richard C. Tolman",
+   "Roscoe G. Dickinson"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 127,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Thomas A. Steitz thì gặp ai?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "J. D. Bernal",
+   "Linus Pauling",
+   "Niels Bohr",
+   "Richard C. Tolman",
+   "Roscoe G. Dickinson"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 128,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Jan Kmenta?",
+  "gold": [
+   "Oswald Veblen"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 129,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Jan Kmenta thì gặp ai?",
+  "gold": [
+   "Oswald Veblen"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 130,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Hans Kuhn (chemist)?",
+  "gold": [
+   "Arthur Amos Noyes",
+   "Christian Christiansen (physicist)",
+   "Felix Klein",
+   "Ferdinand von Lindemann",
+   "Harald Høffding",
+   "Heinrich Louis d'Arrest",
+   "Thorvald N. Thiele"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 131,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Hans Kuhn (chemist) thì gặp ai?",
+  "gold": [
+   "Arthur Amos Noyes",
+   "Christian Christiansen (physicist)",
+   "Felix Klein",
+   "Ferdinand von Lindemann",
+   "Harald Høffding",
+   "Heinrich Louis d'Arrest",
+   "Thorvald N. Thiele"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 132,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của George Pake?",
+  "gold": [
+   "Edwin C. Kemble",
+   "Henry DeWolf Smyth"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 133,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ George Pake thì gặp ai?",
+  "gold": [
+   "Edwin C. Kemble",
+   "Henry DeWolf Smyth"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 134,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Ted Jacobson?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "Jean Perrin",
+   "Karl Herzfeld",
+   "Max Born",
+   "Niels Bohr",
+   "Paul Langevin"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 135,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Ted Jacobson thì gặp ai?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "Jean Perrin",
+   "Karl Herzfeld",
+   "Max Born",
+   "Niels Bohr",
+   "Paul Langevin"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 136,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Richard Holden (economist)?",
+  "gold": [
+   "Franklin M. Fisher",
+   "Kenneth Arrow"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 137,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Richard Holden (economist) thì gặp ai?",
+  "gold": [
+   "Franklin M. Fisher",
+   "Kenneth Arrow"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 138,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Lester G. Telser?",
+  "gold": [
+   "Allyn Abbott Young",
+   "Alvin Saunders Johnson",
+   "Wesley Clair Mitchell"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 139,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Lester G. Telser thì gặp ai?",
+  "gold": [
+   "Allyn Abbott Young",
+   "Alvin Saunders Johnson",
+   "Wesley Clair Mitchell"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 140,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của David Julius?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "Niels Bohr",
+   "Richard C. Tolman",
+   "Roscoe G. Dickinson"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 141,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ David Julius thì gặp ai?",
+  "gold": [
+   "Arnold Sommerfeld",
+   "Niels Bohr",
+   "Richard C. Tolman",
+   "Roscoe G. Dickinson"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 142,
+  "type": "3hop-advisor-chain",
+  "style": "chuẩn",
+  "question": "Ai là thầy hướng dẫn của thầy hướng dẫn của thầy hướng dẫn của Kuan Chung-ming?",
+  "gold": [
+   "David Widder",
+   "G. H. Hardy",
+   "Wassily Leontief"
+  ],
+  "kind": "set"
+ },
+ {
+  "id": 143,
+  "type": "3hop-advisor-chain",
+  "style": "diễn đạt lại",
+  "question": "Truy ngược ba thế hệ thầy–trò từ Kuan Chung-ming thì gặp ai?",
+  "gold": [
+   "David Widder",
+   "G. H. Hardy",
+   "Wassily Leontief"
+  ],
+  "kind": "set"
+ }
+]
