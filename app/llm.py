@@ -27,7 +27,8 @@ MODEL_PARAMS = {  # tỷ tham số
 PROVIDERS = {
     "ollama": ("http://localhost:11434/v1", "qwen2.5:7b", None),
     "openrouter": ("https://openrouter.ai/api/v1", "meta-llama/llama-3.1-8b-instruct", "OPENROUTER_API_KEY"),
-    "groq": ("https://api.groq.com/openai/v1", "llama-3.1-8b-instant", "GROQ_API_KEY"),
+    # Groq: bản miễn phí đã ngừng llama-3.1-8b-instant (08/2026); giữ lại để ai có model ≤ 9B khác thì tự đặt LLM_MODEL
+    "groq": ("https://api.groq.com/openai/v1", None, "GROQ_API_KEY"),
 }
 
 

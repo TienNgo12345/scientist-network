@@ -88,12 +88,12 @@ with st.sidebar:
     import os
     from app.llm import _load_env
     _load_env()
-    provs = ["ollama", "openrouter", "groq", "none"]
+    provs = ["ollama", "openrouter", "none"]
     env_p = os.getenv("LLM_PROVIDER", "ollama").lower()
     provider = st.selectbox("Nhà cung cấp", provs, index=provs.index(env_p) if env_p in provs else 0,
                             help="ollama: chạy cục bộ (ollama pull qwen2.5:7b). none: không dùng LLM.")
     model = st.text_input("Model", value=os.getenv("LLM_MODEL") if os.getenv("LLM_PROVIDER", "").lower() == provider and os.getenv("LLM_MODEL") else {"ollama": "qwen2.5:7b", "openrouter": "meta-llama/llama-3.1-8b-instruct",
-                                          "groq": "llama-3.1-8b-instant", "none": "-"}[provider])
+                                          "none": "-"}[provider])
     if "llm_key" not in st.session_state or st.session_state.llm_key != (provider, model):
         st.session_state.llm = LLM(provider, model if provider != "none" else None)
         st.session_state.llm_key = (provider, model)
